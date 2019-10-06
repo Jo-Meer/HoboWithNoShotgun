@@ -1,4 +1,4 @@
-/// @description Police
+/// @description Enemy
 
 var distance_to_player = abs(obj_Player.x - x);
 switch(current_enemy_state)
