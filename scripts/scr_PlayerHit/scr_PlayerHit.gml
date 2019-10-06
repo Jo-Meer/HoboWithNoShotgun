@@ -1,4 +1,4 @@
-current_player_state = PlayerState.Hurt;
+current_player_state = PlayerState.Hit;
 
 was_hit = false;
 
