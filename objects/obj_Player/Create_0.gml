@@ -43,3 +43,5 @@ enum PlayerState
 	Walk,
 	Jump
 }
+
+run = 0;
