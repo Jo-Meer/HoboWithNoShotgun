@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03301f88-4c66-4711-a5d7-9bbe38500858",
+            "Value": {
+                "id": "fe7e2d3a-c098-4c83-a5db-a23675e228b0",
+                "resourcePath": "sprites\\spr_fight\\spr_fight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07a73a72-72c2-4395-bbfd-5ec55ab942d3",
             "Value": {
                 "id": "63bf9925-1254-43d5-aac8-8a3834d6987a",
@@ -940,6 +948,14 @@
                 "id": "351b6deb-a213-4e27-a29f-3bca410d40ff",
                 "resourcePath": "views\\87e70a75-76dd-4f2a-9910-71f838828324.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88617594-0fa4-4959-b9f2-880fa924f784",
+            "Value": {
+                "id": "fb7a7cd5-9e3c-4945-9040-9aba2f106329",
+                "resourcePath": "objects\\obj_FightController\\obj_FightController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
