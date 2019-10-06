@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "de5acc7f-c6ea-4455-8f04-1f88f54892e6",
+            "Value": {
+                "id": "e59f40fd-10e7-44c9-a215-86db8ea215d9",
+                "resourcePath": "objects\\obj_Bush3\\obj_Bush3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e16cd635-c2d5-46f4-9995-5f1d46173859",
             "Value": {
                 "id": "982257b7-00c0-4583-9249-e56ef5be8ddf",
