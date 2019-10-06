@@ -161,3 +161,8 @@ if(hp <= 0 && !is_dying && !is_in_air)
 {
 	scr_PlayerDie();
 }
+
+if(x < sprite_get_xoffset(sprite_index))
+{
+	x = sprite_get_xoffset(sprite_index);
+}
