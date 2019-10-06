@@ -33,7 +33,7 @@ switch(current_enemy_state)
 			scr_EnemyHit();
 			break;
 		}
-		scr_PoliceUpdateAttack();
+		scr_SpecterUpdateAttack();
 		if(image_index > image_number -1)
 		{			
 			scr_EnemyIdle();

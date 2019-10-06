@@ -7,14 +7,23 @@ sprite_hit = spr_specter_hit;
 sprite_walk = spr_specter_walk;
 sprite_dying = spr_specter_dying;
 
+// Weapon setup
+weapon_range = 30;
+weapon_y_offset_to_top = 38;
+weapon_y_width = 10;
+weapon_damage = 10;
+weapon_attack_begin_frame = 5;
+weapon_attack_duration_in_frames = 3;
+
 
 hp = 25;
 walk_speed = 1.5;
 
 detection_range = 150;
-attacking_range = 20;
+attacking_range = 25;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
+
 
 sprite_attack_frame = 5;
 has_attacked = false;

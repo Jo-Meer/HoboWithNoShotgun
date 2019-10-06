@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "3d0b0c84-3391-4e92-a267-35f94ad24fb8",
+            "Value": {
+                "id": "02fe4b64-3a2b-4272-8ebe-611176d27386",
+                "resourcePath": "views\\3d0b0c84-3391-4e92-a267-35f94ad24fb8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3d968676-c677-4c3e-b4bd-a23d78e5ec03",
             "Value": {
                 "id": "a24618d9-9fb8-4977-8fe5-b0327f8bcd7b",
@@ -1215,6 +1223,14 @@
             }
         },
         {
+            "Key": "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
+            "Value": {
+                "id": "557f0316-b6b5-497a-8769-2403089ec907",
+                "resourcePath": "scripts\\scr_DamagePlayer\\scr_DamagePlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d80ba1bd-d2a3-4b0d-bfe2-a3f1b894b19a",
             "Value": {
                 "id": "7a6f657f-cbd4-4d43-8cf1-cd2d6f2312cb",
@@ -1244,6 +1260,14 @@
                 "id": "70802b9c-dcbb-44d7-a633-869be2cc1f11",
                 "resourcePath": "sprites\\spr_HoboRun\\spr_HoboRun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dacf6b96-e7d2-45c6-8df0-0c9d871e2dab",
+            "Value": {
+                "id": "f43c3f4e-f014-48de-85ed-51d952fb1fbb",
+                "resourcePath": "scripts\\scr_SpecterUpdateAttack\\scr_SpecterUpdateAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1460,6 +1484,8 @@
         "b4133fb1-a7c3-44df-a80d-c061f4d2dbf8",
         "c8dc9286-c9d6-4d24-b39f-d20e4de7020b",
         "f43a3307-6aab-4e11-9490-93e8663b00d6",
+        "dacf6b96-e7d2-45c6-8df0-0c9d871e2dab",
+        "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
         "4f5106ca-665b-4f48-8ad6-a4a454ca93e3"
     ],
     "tutorial": ""
