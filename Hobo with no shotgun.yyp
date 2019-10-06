@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "48f2c06f-4db0-4965-af3a-b4767aa37698",
+            "Value": {
+                "id": "1a2f1c3d-19a9-4781-b214-8255851217a5",
+                "resourcePath": "objects\\obj_ColorLight\\obj_ColorLight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4cfeb737-019d-4294-9481-e9d45fa5810b",
             "Value": {
                 "id": "6c9ed088-5f49-4caa-9e0d-2ce12e8f366a",
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "cc5c7af5-08cf-4f7e-9af2-e780dc58b7ba",
+            "Value": {
+                "id": "485805e1-b694-4610-8f15-263bb2f26fc0",
+                "resourcePath": "shaders\\shader_colored_light\\shader_colored_light.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5e4b8194-802f-4e29-8d05-7c9ed9915218",
@@ -1148,6 +1164,14 @@
                 "id": "015be784-e513-4880-adf8-b439faeadbde",
                 "resourcePath": "objects\\obj_ParkBackground\\obj_ParkBackground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f91cbded-9c6c-49bc-824a-93abcb2866aa",
+            "Value": {
+                "id": "95b1f7ee-8ca7-467b-aa2e-872b1e6a4117",
+                "resourcePath": "views\\f91cbded-9c6c-49bc-824a-93abcb2866aa.yy",
+                "resourceType": "GMFolder"
             }
         }
     ],

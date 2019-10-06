@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Cloud1",
     "eventList": [
-        
+        {
+            "id": "85169b70-4f2d-4cd0-8e32-514cd5166fd6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e16cd635-c2d5-46f4-9995-5f1d46173859"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "6e06cc5e-be07-40cb-a872-ea4795db6028",
     "visible": true
 }
