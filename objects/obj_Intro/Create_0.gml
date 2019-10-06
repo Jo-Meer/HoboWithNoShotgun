@@ -1,5 +1,9 @@
 /// @Intro
 
+ww = window_get_width();
+wh = window_get_height();
+
+
 xpos=480;
 a=1;
 fadeout=0;
