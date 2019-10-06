@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-spd = random_range(0, 0.05);
+factor = 0.97;
