@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "14673c39-76f0-4bee-b4e3-d0886be91b28",
+            "Value": {
+                "id": "481dc599-87da-413d-bc87-4aaa7cc5b774",
+                "resourcePath": "scripts\\scr_PlayerJumpUpdate\\scr_PlayerJumpUpdate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "188b548f-04a6-4850-9be8-cffe9df57648",
             "Value": {
                 "id": "cad9b961-91e5-4df2-8bdc-da19b7fde1b6",
@@ -132,6 +140,14 @@
                 "id": "f095beea-e72a-449c-b8df-d983c82d7138",
                 "resourcePath": "scripts\\scr_ShootShotgun\\scr_ShootShotgun.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "249adf7a-151f-46c4-a070-a965d44f3252",
+            "Value": {
+                "id": "e278fa48-0be6-4733-aff9-e5a92d97bfe2",
+                "resourcePath": "sprites\\spr_HoboJump\\spr_HoboJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "39931e8b-0550-4d61-b54e-40e3128623ec",
+            "Value": {
+                "id": "446c36e5-5d5a-4d02-b7da-9437a03adec9",
+                "resourcePath": "scripts\\scr_PlayerJump\\scr_PlayerJump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3af3f864-c147-42ec-b97b-e673dd462698",
             "Value": {
                 "id": "9518f92b-bc69-4d69-84c4-e987435c3917",
@@ -203,6 +227,14 @@
             "Value": {
                 "id": "728e9499-3317-4f36-8bbb-899a3f9c6ff6",
                 "resourcePath": "sprites\\spr_HoboDieOnShit\\spr_HoboDieOnShit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cdd02c3-8baf-4917-8efc-f07312736416",
+            "Value": {
+                "id": "58f95187-74b7-40ad-9739-40c2730c70fc",
+                "resourcePath": "sprites\\spr_HoboAirborneHit\\spr_HoboAirborneHit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -404,6 +436,14 @@
                 "id": "82400feb-d75d-4538-ac40-dfcea5edc1b1",
                 "resourcePath": "views\\827b4e23-17fd-482f-ba95-f60e911e1e66.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86090ead-7131-45f9-aa55-368a57d68cdc",
+            "Value": {
+                "id": "aaf96994-ca45-4651-9769-e0f93ff4940a",
+                "resourcePath": "sprites\\spr_HoboAirborne\\spr_HoboAirborne.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +879,8 @@
         "8b0dd98b-a414-4bda-8d93-c8bdc692b75d",
         "f52205a4-c902-402d-9271-5440d2f5dc53",
         "c15a5a83-365e-4dbe-b1bd-314479de00d8",
+        "39931e8b-0550-4d61-b54e-40e3128623ec",
+        "14673c39-76f0-4bee-b4e3-d0886be91b28",
         "63840cc7-8bb3-419b-b58e-bb59c1029202",
         "20f18e1f-2848-4e49-8131-d2986f56b433",
         "30d7ca51-1408-4900-b306-773f60bee1b1",

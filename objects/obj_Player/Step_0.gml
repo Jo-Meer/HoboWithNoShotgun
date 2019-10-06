@@ -8,6 +8,7 @@ var tile_at_bottom = tilemap_get_at_pixel(map, x,y);
 shoot_was_pressed = keyboard_check_pressed(vk_control);
 walk_left_is_pressed = keyboard_check(vk_left);
 walk_right_is_pressed = keyboard_check(vk_right);
+jump_was_pressed = keyboard_check_pressed(vk_space);
 var movement_key_is_pressed = walk_left_is_pressed || walk_right_is_pressed;
 
 switch(current_player_state)
@@ -22,6 +23,10 @@ switch(current_player_state)
 		if(shoot_was_pressed)
 		{
 			scr_PlayerAttack();
+		}
+		else if (jump_was_pressed)
+		{
+			scr_PlayerJump();
 		}
 		else if(movement_key_is_pressed)
 		{
@@ -41,6 +46,10 @@ switch(current_player_state)
 		if(shoot_was_pressed)
 		{
 			scr_PlayerAttack();
+		}
+		else if(jump_was_pressed)
+		{
+			scr_PlayerJump();
 		}
 		else if(movement_key_is_pressed)
 		{
@@ -67,6 +76,10 @@ switch(current_player_state)
 			{
 				scr_PlayerAttack();
 			}
+			else if(jump_was_pressed)
+			{
+				scr_PlayerJump();
+			}
 			else if(movement_key_is_pressed)
 			{
 				scr_PlayerUpdateRotation();
@@ -77,6 +90,20 @@ switch(current_player_state)
 				scr_PlayerIdle();
 			}
 		}		
+		break;
+	}
+	case PlayerState.Jump:
+	{
+		//if(was_hit)
+		//{
+		//	scr_PlayerHit();
+		//	break;
+		//}
+		scr_PlayerJumpUpdate();
+		if(has_jumped && (image_index > 1))
+		{
+			scr_PlayerIdle();
+		}
 		break;
 	}
 	case PlayerState.Hurt:
@@ -91,6 +118,10 @@ switch(current_player_state)
 			if(shoot_was_pressed)
 			{
 				scr_PlayerAttack();
+			}
+			else if(jump_was_pressed)
+			{
+				scr_PlayerJump();
 			}
 			else if(movement_key_is_pressed)
 			{

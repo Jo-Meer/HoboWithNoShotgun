@@ -1,7 +1,6 @@
 /// @description Enemy
 
 var distance_to_player = distance_to_object(obj_Player);
-show_debug_message(obj_Player.x);
 switch(current_enemy_state)
 {
 	case EnemyState.Idle:
