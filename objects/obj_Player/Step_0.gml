@@ -94,11 +94,18 @@ switch(current_player_state)
 	}
 	case PlayerState.Jump:
 	{
-		//if(was_hit)
-		//{
-		//	scr_PlayerHit();
-		//	break;
-		//}
+		if(was_hit)
+		{
+			if(is_in_air)
+			{
+				scr_PlayerAirborneHit();
+			}
+			else 
+			{
+				scr_PlayerHit();
+			}			
+			break;
+		}
 		scr_PlayerJumpUpdate();
 		if(has_jumped && (image_index > 1))
 		{
@@ -106,7 +113,7 @@ switch(current_player_state)
 		}
 		break;
 	}
-	case PlayerState.Hurt:
+	case PlayerState.Hit:
 	{
 		if(was_hit)
 		{
@@ -135,13 +142,22 @@ switch(current_player_state)
 		}		
 		break;
 	}
+	case PlayerState.AirbornHit:
+	{
+		scr_PlayerAirborneHitUpdate();
+		if(!is_in_air)
+		{
+			scr_PlayerIdle();
+		}
+		break;
+	}
 	case PlayerState.Dying:
 	{
 		scr_PlayerDieUpdate();
 	}
 }
 
-if(hp <= 0 && !is_dying) 
+if(hp <= 0 && !is_dying && !is_in_air) 
 {
 	scr_PlayerDie();
 }

@@ -36,7 +36,8 @@ enum PlayerState
 {
 	Attack,
 	Dying,
-	Hurt,
+	Hit,
+	AirbornHit,
 	Idle,
 	Walk,
 	Jump
