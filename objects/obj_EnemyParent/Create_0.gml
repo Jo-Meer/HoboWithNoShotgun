@@ -6,5 +6,6 @@ enum EnemyState
 	Dying,
 	Hurt,
 	Idle,
-	Walk
+	Walk,
+	PlayerDetection
 }

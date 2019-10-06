@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "151ae4d5-b593-41c3-a85a-2d9d4168f8d3",
+            "Value": {
+                "id": "86d3f1c1-a046-4561-89d5-b937354f5805",
+                "resourcePath": "sprites\\spr_brute_dying\\spr_brute_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17152378-12b5-4e7c-bdcb-b23054941929",
             "Value": {
                 "id": "84c0e54c-fa6f-43eb-8306-8483d86fb646",
@@ -179,14 +187,6 @@
             "Value": {
                 "id": "2c1906fb-9fb2-40db-a766-78b59a0e5303",
                 "resourcePath": "sprites\\spr_HouseConcreteDoor\\spr_HouseConcreteDoor.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "151ae4d5-b593-41c3-a85a-2d9d4168f8d3",
-            "Value": {
-                "id": "86d3f1c1-a046-4561-89d5-b937354f5805",
-                "resourcePath": "sprites\\spr_brute_dying\\spr_brute_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -639,18 +639,18 @@
             }
         },
         {
-            "Key": "633a9061-950a-49b3-9a41-cdeabc10051b",
-            "Value": {
-                "id": "70c128b5-d358-4bd3-b809-de5a082f8ace",
-                "resourcePath": "sprites\\spr_ShoppingCart\\spr_ShoppingCart.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "604ba2f4-eae6-47ba-b332-823f557d27bb",
             "Value": {
                 "id": "d91bbdee-ed61-4432-bc95-b0ca9f08584c",
                 "resourcePath": "sprites\\spr_brute_hit\\spr_brute_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "633a9061-950a-49b3-9a41-cdeabc10051b",
+            "Value": {
+                "id": "70c128b5-d358-4bd3-b809-de5a082f8ace",
+                "resourcePath": "sprites\\spr_ShoppingCart\\spr_ShoppingCart.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1007,19 +1007,19 @@
             }
         },
         {
-            "Key": "9510e3d4-265f-4c95-8593-6b3b61f43e0c",
-            "Value": {
-                "id": "1f80e628-d4a6-4aec-af39-faafe0a7f314",
-                "resourcePath": "sprites\\spr_HouseGlass1\\spr_HouseGlass1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9487a026-33f5-4313-8b05-67566cf7c74e",
             "Value": {
                 "id": "943d9860-6930-45c6-bfb8-4b14eecd304e",
                 "resourcePath": "sounds\\Rampage\\Rampage.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9510e3d4-265f-4c95-8593-6b3b61f43e0c",
+            "Value": {
+                "id": "1f80e628-d4a6-4aec-af39-faafe0a7f314",
+                "resourcePath": "sprites\\spr_HouseGlass1\\spr_HouseGlass1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1068,6 +1068,14 @@
                 "id": "0bdb2d83-2377-41f3-af56-710b4445f4d2",
                 "resourcePath": "sprites\\Projectile_Shotgun\\Projectile_Shotgun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9cffd300-9dac-4c23-9760-191733f06aa3",
+            "Value": {
+                "id": "bcd7929d-797c-4efa-a189-5168304dbc5b",
+                "resourcePath": "scripts\\scr_BruteDetectPlayer\\scr_BruteDetectPlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1912,6 +1920,7 @@
         "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
         "83cbad4f-92fc-43a0-bc96-9c33e9546473",
         "ec44626d-ed77-4319-9b99-08c81e6723b7",
+        "9cffd300-9dac-4c23-9760-191733f06aa3",
         "4f5106ca-665b-4f48-8ad6-a4a454ca93e3"
     ],
     "tutorial": ""
