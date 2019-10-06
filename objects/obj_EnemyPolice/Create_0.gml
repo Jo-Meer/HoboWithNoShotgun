@@ -15,7 +15,7 @@ attacking_range = 100;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
 
-sprite_attack_frame = 5;
+sprite_attack_frame = 11;
 has_attacked = false;
 was_hit = false;
 is_dying = false;

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07a73a72-72c2-4395-bbfd-5ec55ab942d3",
+            "Value": {
+                "id": "63bf9925-1254-43d5-aac8-8a3834d6987a",
+                "resourcePath": "objects\\obj_Fags\\obj_Fags.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0820477c-c6be-468f-a8b2-df6332ed3694",
             "Value": {
                 "id": "da972922-70d6-479c-983f-dd2284b0f9fe",
@@ -655,6 +663,14 @@
             }
         },
         {
+            "Key": "81a62eac-9556-4111-b317-d064f09bc16f",
+            "Value": {
+                "id": "f435823a-3e78-4413-a40a-6235ed194ed2",
+                "resourcePath": "views\\81a62eac-9556-4111-b317-d064f09bc16f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "81aa1877-4922-4d16-a2d6-85c6e1fc6778",
             "Value": {
                 "id": "aca3983f-66f8-47eb-ae5f-655499b8a79a",
@@ -927,6 +943,13 @@
             }
         },
         {
+            "Key": "adb93b9d-0d34-4915-b914-f36df98e0110",
+            "Value": {
+                "id": "500bcaf2-2ca0-46b2-a420-276bf8f59f37",
+                "resourcePath": "sprites\\spr_PickupFag\\spr_PickupFag.yy",
+                "resourceType": "GMSprite"}}
+
+        ,{
             "Key": "ac1476bd-1ee1-420b-8751-345eb24962a3",
             "Value": {
                 "id": "3988fbda-ac24-48e1-9a79-f1987ad1ae8c",
