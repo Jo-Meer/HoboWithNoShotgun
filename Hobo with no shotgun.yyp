@@ -2013,14 +2013,6 @@
                 "resourcePath": "objects\\obj_introsong\\obj_introsong.yy",
                 "resourceType": "GMObject"
             }
-        },
-        {
-            "Key": "fc2cde8a-c3f0-4100-8892-e943bfc818bc",
-            "Value": {
-                "id": "3f8dc6b4-9e74-4c14-8053-c091d6d458d7",
-                "resourcePath": "objects\\obj_introsong\\obj_introsong.yy",
-                "resourceType": "GMObject"
-            }
         }
     ],
     "script_order": [
