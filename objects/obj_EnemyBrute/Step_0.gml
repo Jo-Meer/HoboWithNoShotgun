@@ -21,8 +21,15 @@ switch(current_enemy_state)
 		} 
 		else if(distance_to_player <= detection_range || had_player_contact)
 		{
-			had_player_contact = true;
-			scr_EnemyWalk();
+			if(!had_player_contact)
+			{
+				scr_BruteDetectPlayer();
+				had_player_contact = true;	
+			}
+			else
+			{
+				scr_EnemyWalk();
+			}					
 		}
 		break;
 	}
@@ -80,6 +87,18 @@ switch(current_enemy_state)
 	{
 		scr_EnemyUpdateDie();
 		break;
+	}
+	case EnemyState.PlayerDetection:
+	{
+		if(was_hit)
+		{
+			scr_EnemyHit();
+			break;
+		}
+		if(image_index > image_number -1)
+		{
+			scr_BruteIdle();			
+		}
 	}
 }
 
