@@ -1315,6 +1315,7 @@
             "Value": {
                 "id": "060a2b60-dc34-41a2-b7ce-f300f87e2c58",
                 "resourcePath": "objects\\obj_ConcreteHouseDoor\\obj_ConcreteHouseDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1738,6 +1739,7 @@
             "Value": {
                 "id": "3f8dc6b4-9e74-4c14-8053-c091d6d458d7",
                 "resourcePath": "objects\\obj_introsong\\obj_introsong.yy",
+                "resourceType": "GMObject"
             }
         },
         {
