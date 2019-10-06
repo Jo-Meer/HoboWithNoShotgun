@@ -40,7 +40,17 @@ else if(is_in_air)
 {
 	sprite_index = spr_HoboJump;
 	image_index = 0;
-	y = real(y&$ffffffc0);
+	show_debug_message("Before: " + string(y));
+	var i = 0;
+	var tile;
+	do
+	{
+		i++;
+		tile = tilemap_get_at_pixel(map, x,y - i);		
+	}
+	until(tile != 1);
+	y -= i;
+	show_debug_message(y);
 	is_in_air = false;
 	has_jumped = true;
 	show_debug_message("On Ground");
