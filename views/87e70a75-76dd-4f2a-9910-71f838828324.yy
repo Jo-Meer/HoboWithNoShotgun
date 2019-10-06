@@ -19,7 +19,8 @@
         "6e06cc5e-be07-40cb-a872-ea4795db6028",
         "a69d2a16-0b0e-43f9-823e-d3314c850c92",
         "d8f0122c-85bd-410d-a984-f9dd6f4a4999",
-        "99b6dd78-226d-4e9f-8c38-bed7c72eca6a"
+        "99b6dd78-226d-4e9f-8c38-bed7c72eca6a",
+        "bba8434f-f7e8-4fc9-8ed6-39d1dec10382"
     ],
     "filterType": "GMSprite",
     "folderName": "Park",
