@@ -389,8 +389,7 @@
         "fe2f11b1-aa5c-4eb8-8a7a-4b133c5741b2",
         "311345b3-15a1-406b-9f4d-96f00fa0d66e",
         "3fe538d5-5a20-40fc-952e-cea65d20fc67",
-        "516343c9-f342-439b-bf5d-f8c59e662410",
-        "2928c3b4-c475-41fb-9ab2-e017ae856af7"
+        "516343c9-f342-439b-bf5d-f8c59e662410"
     ],
     "IsDnD": false,
     "layers": [
@@ -531,8 +530,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3C509858","id": "516343c9-f342-439b-bf5d-f8c59e662410","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C509858","objId": "dc40d4ce-a221-4810-8584-cdf2f0a6a468","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 688,"y": 240},
-{"name": "inst_1593A3B","id": "2928c3b4-c475-41fb-9ab2-e017ae856af7","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1593A3B","objId": "a23487ac-73ac-441f-a273-5d5e3d8cca6e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 64,"y": 240}
+{"name": "inst_3C509858","id": "516343c9-f342-439b-bf5d-f8c59e662410","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C509858","objId": "dc40d4ce-a221-4810-8584-cdf2f0a6a468","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 688,"y": 240}
             ],
             "layers": [
 
