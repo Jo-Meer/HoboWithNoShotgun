@@ -166,3 +166,8 @@ if(x < sprite_get_xoffset(sprite_index))
 {
 	x = sprite_get_xoffset(sprite_index);
 }
+
+if (x > room_width - sprite_get_xoffset(sprite_index))
+{
+    x = room_width - sprite_get_xoffset(sprite_index);
+}

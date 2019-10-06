@@ -1,6 +1,7 @@
 if(floor(image_index) == sprite_attack_frame && !has_attacked)
 {
 	has_attacked = true;
+	time_of_last_attack = get_timer();
 	var start_x = x + projectile_x_offset;
 	var start_y = y - projectile_y_offset;
 
