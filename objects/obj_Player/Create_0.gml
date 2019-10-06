@@ -1,6 +1,6 @@
 /// @description Init vars
-
-hp = 100;
+max_hp = 100;
+hp = max_hp;
 
 walk_speed = 3;
 current_idle_sprite = spr_HoboIdle;
