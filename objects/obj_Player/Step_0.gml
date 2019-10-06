@@ -188,12 +188,16 @@ if(hp <= 0 && !is_dying && !is_in_air)
 	scr_PlayerDie();
 }
 
-if(x < sprite_get_xoffset(sprite_index))
+var view_left = camera_get_view_x(view_camera[0]);
+var view_right = view_left + camera_get_view_width(view_camera[0]);
+var border_distance = 20;
+
+if(x < view_left + border_distance)
 {
-	x = sprite_get_xoffset(sprite_index);
+	x = view_left + border_distance;
 }
 
-if (x > room_width - sprite_get_xoffset(sprite_index))
+if (x > view_right - border_distance)
 {
-    x = room_width - sprite_get_xoffset(sprite_index);
+    x = view_right - border_distance;
 }
