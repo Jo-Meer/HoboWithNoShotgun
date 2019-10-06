@@ -1,10 +1,5 @@
 /// @description Movement
 
-var map = layer_tilemap_get_id("Collisions");
-//show_debug_message("Map: " + string(map));
-var tile_at_bottom = tilemap_get_at_pixel(map, x,y);
-//show_debug_message("Tile data: " + string(tile_at_bottom));
-
 shoot_was_pressed = keyboard_check_pressed(vk_control);
 walk_left_is_pressed = keyboard_check(vk_left);
 walk_right_is_pressed = keyboard_check(vk_right);
