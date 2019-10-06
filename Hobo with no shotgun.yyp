@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "9487a026-33f5-4313-8b05-67566cf7c74e",
+            "Value": {
+                "id": "943d9860-6930-45c6-bfb8-4b14eecd304e",
+                "resourcePath": "sounds\\Rampage\\Rampage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "95358267-7975-4b53-9f46-0bd020656a7b",
             "Value": {
                 "id": "bc289d87-2acf-4dfc-aea1-f2bdc202667e",
@@ -1307,6 +1315,13 @@
             "Value": {
                 "id": "060a2b60-dc34-41a2-b7ce-f300f87e2c58",
                 "resourcePath": "objects\\obj_ConcreteHouseDoor\\obj_ConcreteHouseDoor.yy",
+            }
+        },
+        {
+            "Key": "c65de8bc-f00c-4ea9-a23b-904ce18d1710",
+            "Value": {
+                "id": "ba2aaec7-db9d-47ef-959a-51885bc26379",
+                "resourcePath": "objects\\obj_rampagesong\\obj_rampagesong.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1380,6 +1395,14 @@
                 "id": "926da61f-3323-4bf5-8264-60820b5076d1",
                 "resourcePath": "sprites\\spr_PickupBeer\\spr_PickupBeer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce1b0342-043c-45e3-b2fe-59881079deeb",
+            "Value": {
+                "id": "ecf161b7-ecb0-42f3-9e04-52f715bfe500",
+                "resourcePath": "views\\ce1b0342-043c-45e3-b2fe-59881079deeb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1708,6 +1731,13 @@
                 "id": "015be784-e513-4880-adf8-b439faeadbde",
                 "resourcePath": "objects\\obj_ParkBackground\\obj_ParkBackground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fc2cde8a-c3f0-4100-8892-e943bfc818bc",
+            "Value": {
+                "id": "3f8dc6b4-9e74-4c14-8053-c091d6d458d7",
+                "resourcePath": "objects\\obj_introsong\\obj_introsong.yy",
             }
         },
         {
