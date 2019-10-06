@@ -1,17 +1,18 @@
 /// @description Init vars
 
 // Sprite setup
-sprite_idle = spr_police_idle;
-sprite_attack = spr_police_attack;
-sprite_hit = spr_police_hurt;
-sprite_walk = spr_police_walk;
-sprite_dying = spr_police_death;
+sprite_idle = spr_specter_idle;
+sprite_attack = spr_specter_attacking;
+sprite_hit = spr_specter_hit;
+sprite_walk = spr_specter_walk;
+sprite_dying = spr_specter_dying;
+
 
 hp = 25;
-walk_speed = 2;
+walk_speed = 1.5;
 
 detection_range = 150;
-attacking_range = 100;
+attacking_range = 20;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
 
@@ -23,9 +24,6 @@ had_player_contact = false;
 
 current_enemy_state = EnemyState.Idle;
 current_facing_direction = -1;
-
-projectile_x_offset = 32;
-projectile_y_offset = 48;
 
 
 time_of_death = 0;

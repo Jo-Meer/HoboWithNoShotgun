@@ -1,4 +1,10 @@
 /// @description Init vars
 
-hp = 25;
-was_hit = false;
+enum EnemyState
+{
+	Attack,
+	Dying,
+	Hurt,
+	Idle,
+	Walk
+}
