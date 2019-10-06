@@ -50,7 +50,7 @@
             "Key": "03301f88-4c66-4711-a5d7-9bbe38500858",
             "Value": {
                 "id": "fe7e2d3a-c098-4c83-a5db-a23675e228b0",
-                "resourcePath": "sprites\\spr_fight\\spr_fight.yy",
+                "resourcePath": "sprites\\spr_Fight\\spr_Fight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "ce3e9b1c-13df-4454-b187-ba3e46065fa7",
+            "Value": {
+                "id": "fd1da1f9-d72c-431d-bd20-8104b87941af",
+                "resourcePath": "sprites\\spr_LeaveRoom\\spr_LeaveRoom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cea9557e-d03a-4d4b-aaed-0b40c511b877",
             "Value": {
                 "id": "5b64606f-01ac-46bd-86ff-8319aab8232a",
@@ -1884,6 +1892,14 @@
                 "id": "5120b7b3-ed9c-4442-b3bf-54c6e3a5059c",
                 "resourcePath": "scripts\\scr_PlayerHit\\scr_PlayerHit.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e86eef8d-de91-4e6c-a901-c907fe327113",
+            "Value": {
+                "id": "2644d953-3ce0-4a40-bade-c719d64cf971",
+                "resourcePath": "objects\\obj_switchRoom\\obj_switchRoom.yy",
+                "resourceType": "GMObject"
             }
         },
         {

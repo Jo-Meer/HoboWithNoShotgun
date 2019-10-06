@@ -6,7 +6,7 @@ with(other) {
 	other.current_weapon_script = weapon_script;
 	other.current_attacking_sprite = attacking_sprite;
 	other.current_attacking_frame = attacking_frame;
-	if(sprite_index == spr_HoboWithAShotgun){
+	if(sprite_index == spr_PickupShotgun){
 		audio_play_sound(Shotgunpickup,1500,false);	
 	}
 	instance_destroy();
