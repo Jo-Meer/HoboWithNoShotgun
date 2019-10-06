@@ -6,21 +6,38 @@ walk_right_is_pressed = keyboard_check(vk_right);
 jump_was_pressed = keyboard_check_pressed(vk_space);
 var movement_key_is_pressed = walk_left_is_pressed || walk_right_is_pressed;
 
+if(sprite_index == spr_HoboRun && run == 0){
+	audio_play_sound(Running,1500,true);
+	run =1;
+}else if(sprite_index != spr_HoboRun){
+	audio_stop_sound(Running);
+	run=0;
+}
+
 switch(current_player_state)
 {
 	case PlayerState.Idle:
 	{
 		if(was_hit)
 		{
+			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
 			break;
 		}
 		if(shoot_was_pressed)
 		{
+			if(sprite_index == spr_HoboWithAShotgun){
+					audio_play_sound(Shotgun,1500,false);	
+			}else if(sprite_index == spr_HoboFightBottle){
+					audio_play_sound(Stabbing,1500,false);	
+			}else{
+					audio_play_sound(punch,1500,false);	
+			}
 			scr_PlayerAttack();
 		}
 		else if (jump_was_pressed)
 		{
+			audio_play_sound(Jump,1500,false);
 			scr_PlayerJump();
 		}
 		else if(movement_key_is_pressed)
@@ -34,16 +51,27 @@ switch(current_player_state)
 	{
 		if(was_hit)
 		{
+			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
 			break;
 		}
 		
 		if(shoot_was_pressed)
 		{
+				
+		
 			scr_PlayerAttack();
+				if(sprite_index == spr_HoboWithAShotgun){
+					audio_play_sound(Shotgun,1500,false);	
+			}else if(sprite_index == spr_HoboFightBottle){
+					audio_play_sound(Stabbing,1500,false);	
+			}else{
+					audio_play_sound(punch,1500,false);	
+			}
 		}
 		else if(jump_was_pressed)
 		{
+			audio_play_sound(Jump,1500,false);
 			scr_PlayerJump();
 		}
 		else if(movement_key_is_pressed)
@@ -61,6 +89,7 @@ switch(current_player_state)
 	{
 		if(was_hit)
 		{
+			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
 			break;
 		}
@@ -94,10 +123,12 @@ switch(current_player_state)
 			if(is_in_air)
 			{
 				scr_PlayerAirborneHit();
+				audio_play_sound(Puke,1500,false);
 			}
 			else 
 			{
 				scr_PlayerHit();
+				audio_play_sound(Puke,1500,false);
 			}			
 			break;
 		}

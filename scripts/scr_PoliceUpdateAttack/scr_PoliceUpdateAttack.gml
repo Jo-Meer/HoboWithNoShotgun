@@ -1,5 +1,6 @@
 if(floor(image_index) == sprite_attack_frame && !has_attacked)
 {
+	audio_play_sound(Shot,1500,false);
 	has_attacked = true;
 	time_of_last_attack = get_timer();
 	var start_x = x + projectile_x_offset;
