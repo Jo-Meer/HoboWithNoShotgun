@@ -1,5 +1,12 @@
 /// @description Init vars
 
+// Sprite setup
+sprite_idle = spr_police_idle;
+sprite_attack = spr_police_attack;
+sprite_hit = spr_police_hurt;
+sprite_walk = spr_police_walk;
+sprite_dying = spr_police_death;
+
 hp = 25;
 walk_speed = 2;
 
@@ -8,7 +15,7 @@ attacking_range = 100;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
 
-sprite_attack_frame = 5;
+sprite_attack_frame = 11;
 has_attacked = false;
 was_hit = false;
 is_dying = false;
@@ -20,14 +27,6 @@ current_facing_direction = -1;
 projectile_x_offset = 32;
 projectile_y_offset = 48;
 
-enum EnemyState
-{
-	Attack,
-	Dying,
-	Hurt,
-	Idle,
-	Walk
-}
 
 time_of_death = 0;
 time_of_last_attack = 0;

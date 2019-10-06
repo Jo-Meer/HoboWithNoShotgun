@@ -1,8 +1,7 @@
 /// @description OnEnemy hit
 
 with(other)
-{
-	hp -= other.bullet_damage;
-	was_hit = true;
+{	
+	scr_DamagePlayer(other.bullet_damage);
 	instance_destroy(other);
 }

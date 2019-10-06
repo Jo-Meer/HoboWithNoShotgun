@@ -1,4 +1,4 @@
-/// @description Enemy
+/// @description Police
 
 var distance_to_player = abs(obj_Player.x - x);
 switch(current_enemy_state)
@@ -7,22 +7,22 @@ switch(current_enemy_state)
 	{		
 		if(was_hit)
 		{
-			scr_PoliceHit();
+			scr_EnemyHit();
 			break;
 		}
 		else if(distance_to_player <= attacking_range)
 		{
 			had_player_contact = true;
-			scr_PoliceUpdateRotation();
+			scr_EnemyUpdateRotation();
 			if((time_of_last_attack + seconds_of_attack_cooldown * 1000000) <= get_timer())
 			{
-				scr_PoliceAttack();
+				scr_EnemyAttack();
 			}			
 		} 
 		else if(distance_to_player <= detection_range || had_player_contact)
 		{
 			had_player_contact = true;
-			scr_PoliceWalk();
+			scr_EnemyWalk();
 		}
 		break;
 	}
@@ -30,13 +30,13 @@ switch(current_enemy_state)
 	{
 		if(was_hit)
 		{
-			scr_PoliceHit();
+			scr_EnemyHit();
 			break;
 		}
 		scr_PoliceUpdateAttack();
 		if(image_index > image_number -1)
 		{			
-			scr_PoliceIdle();
+			scr_EnemyIdle();
 		}		
 		break;
 	}
@@ -44,20 +44,20 @@ switch(current_enemy_state)
 	{
 		if(was_hit)
 		{
-			scr_PoliceHit();
+			scr_EnemyHit();
 			break;
 		}
-		scr_PoliceUpdateRotation();
-		scr_PoliceUpdateWalk();
+		scr_EnemyUpdateRotation();
+		scr_EnemyUpdateWalk();
 		if(distance_to_player <= attacking_range)
 		{
 			if((time_of_last_attack + seconds_of_attack_cooldown * 1000000) <= get_timer())
 			{
-				scr_PoliceAttack();
+				scr_EnemyAttack();
 			}
 			else
 			{
-				scr_PoliceIdle();
+				scr_EnemyIdle();
 			}
 		}
 		break;
@@ -67,23 +67,23 @@ switch(current_enemy_state)
 		had_player_contact = true;
 		if(was_hit)
 		{
-			scr_PoliceHit();
+			scr_EnemyHit();
 			break;
 		}
 		if(image_index > image_number -1)
 		{
-			scr_PoliceIdle();			
+			scr_EnemyIdle();			
 		}		
 		break;
 	}
 	case EnemyState.Dying:
 	{
-		scr_PoliceUpdateDie();
+		scr_EnemyUpdateDie();
 		break;
 	}
 }
 
 if(hp <= 0 && !is_dying) 
 {
-	scr_PoliceDie();
+	scr_EnemyDie();
 }
