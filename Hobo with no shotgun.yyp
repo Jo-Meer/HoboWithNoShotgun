@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "93928285-96fa-48df-a6e4-de2a8b65fd73",
+            "Value": {
+                "id": "0676c22e-1f9d-4577-8c96-0ab047c98eca",
+                "resourcePath": "rooms\\Park\\Park.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "95358267-7975-4b53-9f46-0bd020656a7b",
             "Value": {
                 "id": "bc289d87-2acf-4dfc-aea1-f2bdc202667e",
@@ -579,6 +587,14 @@
             "Value": {
                 "id": "03e7c21e-8dc0-4a5b-92de-b5e1c24b7c45",
                 "resourcePath": "scripts\\scr_PlayerAttack\\scr_PlayerAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c15a5a83-365e-4dbe-b1bd-314479de00d8",
+            "Value": {
+                "id": "95f8faa1-e97c-43ba-bb27-fc9c444404bb",
+                "resourcePath": "scripts\\scr_PlayerUpdateRotation\\scr_PlayerUpdateRotation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -822,6 +838,7 @@
         "e4ca9601-fc66-4468-8230-fc05a156659d",
         "8b0dd98b-a414-4bda-8d93-c8bdc692b75d",
         "f52205a4-c902-402d-9271-5440d2f5dc53",
+        "c15a5a83-365e-4dbe-b1bd-314479de00d8",
         "63840cc7-8bb3-419b-b58e-bb59c1029202",
         "20f18e1f-2848-4e49-8131-d2986f56b433",
         "30d7ca51-1408-4900-b306-773f60bee1b1",

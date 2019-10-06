@@ -17,6 +17,11 @@ is_dying = false;
 
 current_facing_direction = 0;
 
+// Inputs
+shoot_was_pressed = false;
+walk_left_is_pressed = false;
+walk_right_is_pressed = false;
+
 enum PlayerState
 {
 	Attack,
