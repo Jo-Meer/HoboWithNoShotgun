@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "93928285-96fa-48df-a6e4-de2a8b65fd73",
+            "Value": {
+                "id": "0676c22e-1f9d-4577-8c96-0ab047c98eca",
+                "resourcePath": "rooms\\Park\\Park.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "faa7387b-e929-4581-aa52-f1cdf2f436bf",
