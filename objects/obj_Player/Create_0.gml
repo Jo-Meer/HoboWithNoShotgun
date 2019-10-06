@@ -15,6 +15,7 @@ has_attacked = false;
 was_hit = false;
 is_dying = false;
 
+
 current_facing_direction = 0;
 
 // Inputs

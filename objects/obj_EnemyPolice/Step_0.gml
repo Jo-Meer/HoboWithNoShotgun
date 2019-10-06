@@ -1,7 +1,6 @@
 /// @description Enemy
 
 var distance_to_player = abs(obj_Player.x - x);
-show_debug_message(distance_to_player);
 switch(current_enemy_state)
 {
 	case EnemyState.Idle:
@@ -65,6 +64,7 @@ switch(current_enemy_state)
 	}
 	case EnemyState.Hurt:
 	{
+		had_player_contact = true;
 		if(was_hit)
 		{
 			scr_PoliceHit();
@@ -72,16 +72,7 @@ switch(current_enemy_state)
 		}
 		if(image_index > image_number -1)
 		{
-			scr_PoliceIdle();
-			//scr_PoliceUpdateRotation();
-			//if(distance_to_player <= attacking_range)
-			//{
-			//	scr_PoliceAttack();
-			//} 
-			//else if(distance_to_player > attacking_range)
-			//{
-			//	scr_PoliceWalk();
-			//}
+			scr_PoliceIdle();			
 		}		
 		break;
 	}

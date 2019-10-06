@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "22a89e06-4755-459c-a8e5-54d25be6c41c",
+            "Value": {
+                "id": "e86efea2-b352-44d7-b3cb-608ad27e2f1d",
+                "resourcePath": "objects\\obj_Ground\\obj_Ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2404d898-e7fc-4bce-a998-b072bfdf0249",
             "Value": {
                 "id": "f095beea-e72a-449c-b8df-d983c82d7138",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "e2fe57b3-a9e4-435f-b9d0-c08a30756e3f",
                 "resourcePath": "sprites\\spr_HoboFight\\spr_HoboFight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "294f56cc-ee8a-4cdc-842b-987264b9a668",
+            "Value": {
+                "id": "fa3ed12d-8f60-4662-8724-46dd12928474",
+                "resourcePath": "sprites\\spr_Collision\\spr_Collision.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,19 +239,19 @@
             }
         },
         {
-            "Key": "39931e8b-0550-4d61-b54e-40e3128623ec",
-            "Value": {
-                "id": "446c36e5-5d5a-4d02-b7da-9437a03adec9",
-                "resourcePath": "scripts\\scr_PlayerJump\\scr_PlayerJump.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3847d322-f294-4b02-b325-e7c7b213402c",
             "Value": {
                 "id": "6c3618d7-a263-43fd-9d1a-8d15c6731a39",
                 "resourcePath": "sprites\\spr_LanternShine\\spr_LanternShine.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39931e8b-0550-4d61-b54e-40e3128623ec",
+            "Value": {
+                "id": "446c36e5-5d5a-4d02-b7da-9437a03adec9",
+                "resourcePath": "scripts\\scr_PlayerJump\\scr_PlayerJump.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,14 +295,6 @@
             }
         },
         {
-            "Key": "4cdd02c3-8baf-4917-8efc-f07312736416",
-            "Value": {
-                "id": "58f95187-74b7-40ad-9739-40c2730c70fc",
-                "resourcePath": "sprites\\spr_HoboAirborneHit\\spr_HoboAirborneHit.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "48f2c06f-4db0-4965-af3a-b4767aa37698",
             "Value": {
                 "id": "1a2f1c3d-19a9-4781-b214-8255851217a5",
@@ -299,6 +307,14 @@
             "Value": {
                 "id": "adea8d86-5b59-4a7d-ab41-830d7148c32d",
                 "resourcePath": "sprites\\Healthbarplus\\Healthbarplus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cdd02c3-8baf-4917-8efc-f07312736416",
+            "Value": {
+                "id": "58f95187-74b7-40ad-9739-40c2730c70fc",
+                "resourcePath": "sprites\\spr_HoboAirborneHit\\spr_HoboAirborneHit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -348,6 +364,14 @@
                 "id": "f890b1fe-be8b-4e94-aebd-9851fde9e112",
                 "resourcePath": "objects\\obj_ParkStreet3\\obj_ParkStreet3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5302c0bf-3b39-40e4-b9cc-5ce9ceb0e732",
+            "Value": {
+                "id": "f6758607-86fc-41f8-9425-e9746b0e302d",
+                "resourcePath": "views\\5302c0bf-3b39-40e4-b9cc-5ce9ceb0e732.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -599,14 +623,6 @@
             }
         },
         {
-            "Key": "86090ead-7131-45f9-aa55-368a57d68cdc",
-            "Value": {
-                "id": "aaf96994-ca45-4651-9769-e0f93ff4940a",
-                "resourcePath": "sprites\\spr_HoboAirborne\\spr_HoboAirborne.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "84689d7a-86e2-4eba-92ca-1320f86264fa",
             "Value": {
                 "id": "8d560086-ab0a-4c3c-82fb-3df6950f0aa1",
@@ -620,6 +636,14 @@
                 "id": "2594af4e-e0c4-4d3c-83af-f4d164b4ac6a",
                 "resourcePath": "objects\\obj_ParkSky\\obj_ParkSky.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86090ead-7131-45f9-aa55-368a57d68cdc",
+            "Value": {
+                "id": "aaf96994-ca45-4651-9769-e0f93ff4940a",
+                "resourcePath": "sprites\\spr_HoboAirborne\\spr_HoboAirborne.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1175,6 +1199,14 @@
             }
         },
         {
+            "Key": "e4a79bdf-c5b7-4189-a716-cf72765b4b64",
+            "Value": {
+                "id": "8210a6db-107f-4968-aeae-351f1c6e30fd",
+                "resourcePath": "views\\e4a79bdf-c5b7-4189-a716-cf72765b4b64.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e4ca9601-fc66-4468-8230-fc05a156659d",
             "Value": {
                 "id": "fc8e8b0a-156a-4b05-908b-c825ce58574d",
@@ -1255,19 +1287,19 @@
             }
         },
         {
-            "Key": "f43a3307-6aab-4e11-9490-93e8663b00d6",
-            "Value": {
-                "id": "80c152ad-b75f-4355-940e-6f9ce77a54a9",
-                "resourcePath": "scripts\\scr_PoliceIdle\\scr_PoliceIdle.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "8cb11467-1763-4ab3-901e-136c608ded47",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f43a3307-6aab-4e11-9490-93e8663b00d6",
+            "Value": {
+                "id": "80c152ad-b75f-4355-940e-6f9ce77a54a9",
+                "resourcePath": "scripts\\scr_PoliceIdle\\scr_PoliceIdle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
