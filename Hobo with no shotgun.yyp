@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "364cc6e6-a72a-4bf4-a2e4-80504897230b",
+            "Value": {
+                "id": "0a06d810-9d5d-43dc-a4d0-e4a21f2d2c51",
+                "resourcePath": "fonts\\pixel2\\pixel2.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "37f77b11-d421-4de8-9fb6-8dd4ca0723d1",
             "Value": {
                 "id": "74f66be1-4f69-47e6-9e0c-1da05b2006e6",
@@ -564,6 +572,14 @@
                 "id": "446c36e5-5d5a-4d02-b7da-9437a03adec9",
                 "resourcePath": "scripts\\scr_PlayerJump\\scr_PlayerJump.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3995465f-d490-4765-9c48-b728d6e779c0",
+            "Value": {
+                "id": "4d507483-42f1-4299-8ee2-0b71e153661c",
+                "resourcePath": "objects\\obj_Playerguitar\\obj_Playerguitar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1028,6 +1044,14 @@
                 "id": "2ded70d3-d7d8-42ec-8a3a-963db19db104",
                 "resourcePath": "views\\690f2248-e166-4651-837a-5a77dc355b4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "695c15b5-8f51-40ba-839e-e3ddaa63946d",
+            "Value": {
+                "id": "7fe0d253-b173-44ad-9037-e3158242b677",
+                "resourcePath": "rooms\\Credits\\Credits.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2439,6 +2463,14 @@
             }
         },
         {
+            "Key": "f43d3dd2-cfd7-4104-973c-a515fc0a2387",
+            "Value": {
+                "id": "3f49af08-1381-4d85-a7d7-ed2e478b7855",
+                "resourcePath": "objects\\obj_scroll\\obj_scroll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f495b517-7e62-4733-861d-b7099f24582d",
             "Value": {
                 "id": "18b0683b-f730-45cd-ba62-fad761fa67c6",
@@ -2516,6 +2548,14 @@
                 "id": "3f8dc6b4-9e74-4c14-8053-c091d6d458d7",
                 "resourcePath": "objects\\obj_introsong\\obj_introsong.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd6f7a39-9ab9-40ee-baba-6c22911d8e6e",
+            "Value": {
+                "id": "c5f74eb0-429c-42a3-a529-459830455ed4",
+                "resourcePath": "sprites\\spr_guitarhobo\\spr_guitarhobo.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
