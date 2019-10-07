@@ -205,3 +205,7 @@ if (x > view_right - border_distance)
 {
     x = view_right - border_distance;
 }
+
+if (max_right_border != -1) {
+	x = clamp(x, 0, max_right_border);
+}
