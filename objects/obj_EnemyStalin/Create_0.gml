@@ -5,7 +5,9 @@ sprite_idle = spr_stalin_idle;
 sprite_attack = spr_stalin_attack;
 sprite_dying = spr_stalin_die;
 
-hp = 300;
+hp_max = 300
+hp = hp_max;
+
 
 detection_range = 200;
 seconds_to_despawn = 2;
