@@ -8,7 +8,7 @@ sprite_dying = spr_stalin_die;
 hp = 300;
 
 detection_range = 200;
-seconds_to_despawn = 2;
+seconds_to_despawn = 2000;
 seconds_of_attack_cooldown = 2;
 
 sprite_attack_frame_1 = 1;
