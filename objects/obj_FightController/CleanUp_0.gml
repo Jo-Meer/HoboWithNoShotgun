@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
+ds_map_destroy(left);
+ds_map_destroy(right);
+ds_map_destroy(spawned_enemies);
 
-bullet_damage = 15;

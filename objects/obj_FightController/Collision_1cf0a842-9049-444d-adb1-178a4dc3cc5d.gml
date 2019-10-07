@@ -1,6 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description lock camera, start spawning
+
+if (is_triggered) return;
 
 // lock the camera to the screen
-camera_set_view_target(view_camera[0], noone);
+obj_Camera.follow = self;
 
+is_triggered = true;
+frames = 0;

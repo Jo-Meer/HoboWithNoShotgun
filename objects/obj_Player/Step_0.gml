@@ -192,6 +192,11 @@ var view_left = camera_get_view_x(view_camera[0]);
 var view_right = view_left + camera_get_view_width(view_camera[0]);
 var border_distance = 20;
 
+if (instance_exists(obj_Camera)) {
+	view_left = obj_Camera.x - 480/2;
+	view_right = obj_Camera.x + 480/2;
+}
+
 if(x < view_left + border_distance)
 {
 	x = view_left + border_distance;

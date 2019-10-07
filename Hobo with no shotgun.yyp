@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0cd7234f-5483-4cfe-a00f-731a7d62d198",
+            "Value": {
+                "id": "d6f56b52-6fdc-4ab6-b24c-893c01d7d62a",
+                "resourcePath": "objects\\obj_Camera\\obj_Camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e47ee0c-a1fd-44de-b93e-8ebe4434bfcc",
             "Value": {
                 "id": "494bd2e8-0066-459a-9757-cbbd21c53eb9",
@@ -483,6 +491,14 @@
             "Value": {
                 "id": "728e9499-3317-4f36-8bbb-899a3f9c6ff6",
                 "resourcePath": "sprites\\spr_HoboDieOnShit\\spr_HoboDieOnShit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "450d5cfb-d55d-4cc8-9e00-2db1653dabaf",
+            "Value": {
+                "id": "25ae6fad-3464-4d75-8e64-4170f2c450cf",
+                "resourcePath": "sprites\\spr_Camera\\spr_Camera.yy",
                 "resourceType": "GMSprite"
             }
         },
