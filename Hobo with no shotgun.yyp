@@ -564,11 +564,17 @@
                 "id": "2d7fdeb2-c849-4b5e-a41a-38862cce2332",
                 "resourcePath": "sounds\\Die\\Die.yy",
                 "resourceType": "GMSound"
-                }
+            }
         },
-
-
-        {        
+        {
+            "Key": "44e51542-219d-4019-9a49-58392e5abfb0",
+            "Value": {
+                "id": "bb741d0a-fed5-419d-801f-260832c5b85f",
+                "resourcePath": "objects\\obj_PlayerStatic\\obj_PlayerStatic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "450d5cfb-d55d-4cc8-9e00-2db1653dabaf",
             "Value": {
                 "id": "25ae6fad-3464-4d75-8e64-4170f2c450cf",
@@ -593,19 +599,19 @@
             }
         },
         {
-            "Key": "4b093011-0f4b-4c46-b4a3-9158048d08b7",
-            "Value": {
-                "id": "da442834-350a-4d9c-b484-2f8a849d377d",
-                "resourcePath": "sounds\\enemygothit\\enemygothit.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "49574db0-dd24-44af-af88-09e6a3dca543",
             "Value": {
                 "id": "08b30179-9438-429c-9c11-9c411855e8ce",
                 "resourcePath": "objects\\obj_FightOne\\obj_FightOne.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b093011-0f4b-4c46-b4a3-9158048d08b7",
+            "Value": {
+                "id": "da442834-350a-4d9c-b484-2f8a849d377d",
+                "resourcePath": "sounds\\enemygothit\\enemygothit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
