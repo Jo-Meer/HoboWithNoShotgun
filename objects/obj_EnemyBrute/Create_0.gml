@@ -30,8 +30,15 @@ is_dying = false;
 had_player_contact = false;
 
 current_enemy_state = EnemyState.Idle;
-current_facing_direction = -1;
-
 
 time_of_death = 0;
 time_of_last_attack = 0;
+
+// set to the correct starting position
+if (start_direction == DIR_LEFT) {
+	current_facing_direction = DIR_LEFT;
+}
+else {
+	current_facing_direction = DIR_RIGHT;
+	image_xscale = -1;
+}
