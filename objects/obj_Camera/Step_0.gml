@@ -15,7 +15,7 @@ if (follow != noone) {
 			other.x_to = x + 50;
 			
 			var enemy = instance_nearest(x, y, obj_EnemyParent);
-			if (enemy && enemy.object_index != obj_EnemyCrazy && enemy.hp > 0 && distance_to_point(enemy.x, enemy.y) < 200) {
+			if (enemy && enemy.object_index != obj_EnemyCrazy && enemy.hp > 0 && distance_to_point(enemy.x, enemy.y) < 150) {
 				other.x_to = (other.x_to + enemy.x) / 2;
 			}
 		}
