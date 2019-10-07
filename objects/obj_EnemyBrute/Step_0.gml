@@ -115,13 +115,6 @@ switch(current_enemy_state)
 		}
 	}
 }
-if(sprite_index==spr_brute_hit&&image_index==1){
-	audio_play_sound(enemygothit,1500,false);
-	
-}
-if(sprite_index==spr_brute_dying&&image_index==1){
-	audio_play_sound(Die,1500,false);	
-}
 
 if(hp <= 0 && !is_dying) 
 {
