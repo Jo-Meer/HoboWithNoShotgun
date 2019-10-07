@@ -9,6 +9,7 @@ switch(current_enemy_state)
 		if(was_hit)
 		{
 			scr_EnemyHit();
+			audio_play_sound(enemygothit,1500,false);
 			
 			break;
 		}
@@ -85,6 +86,7 @@ switch(current_enemy_state)
 		had_player_contact = true;
 		if(was_hit)
 		{
+			
 			
 			scr_EnemyHit();
 			break;
