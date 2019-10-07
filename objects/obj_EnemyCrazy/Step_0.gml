@@ -29,7 +29,7 @@ if (instance_exists(obj_Camera)) {
 	}
 }
 
-if(x < view_left-50)
+/*if(x < view_left-50)
 {
 	
 }
@@ -37,4 +37,4 @@ if(x < view_left-50)
 if (x > view_right +50 )
 {
    
-}
+}*/
