@@ -22,7 +22,7 @@ is_dying = false;
 had_player_contact = false;
 
 current_enemy_state = EnemyState.Idle;
-current_facing_direction = -1;
+current_facing_direction = DIR_LEFT;
 
 projectile_x_offset = 32;
 projectile_y_offset = 48;
