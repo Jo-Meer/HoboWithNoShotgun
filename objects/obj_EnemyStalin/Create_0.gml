@@ -10,7 +10,7 @@ hp = hp_max;
 
 
 detection_range = 200;
-seconds_to_despawn = 2;
+seconds_to_despawn = 2000;
 seconds_of_attack_cooldown = 2;
 
 sprite_attack_frame_1 = 1;
@@ -26,7 +26,7 @@ had_player_contact = false;
 current_enemy_state = EnemyState.Idle;
 current_facing_direction = DIR_LEFT;
 
-projectile_x_offset = 32;
+projectile_x_offset = 20;
 projectile_y_offset = 30;
 
 time_of_death = 0;

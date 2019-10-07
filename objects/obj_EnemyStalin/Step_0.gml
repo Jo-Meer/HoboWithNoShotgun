@@ -45,3 +45,9 @@ if(hp <= 0 && !is_dying)
 {
 	scr_EnemyDie();
 }
+
+// move screen after 5 seconds
+if(time_of_death != 0 && ((time_of_death + 5 * 1000000) <= get_timer()))
+{
+	room_goto(Credits);
+}

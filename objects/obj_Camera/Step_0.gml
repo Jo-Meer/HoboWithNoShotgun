@@ -8,7 +8,10 @@ x = clamp(x, 480 / 2, room_width - (480 / 2));
 left = x - (480/2);
 right = x + (480/2);
 
-if (follow != noone) {
+if (lock_to_center) {
+	x_to = 480 / 2;
+}
+else if (follow != noone) {
 	with(follow) {
 		if (self.object_index == obj_Player) {
 			
