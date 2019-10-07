@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0288c30a-5f59-4b97-a400-91312e7e055f",
+            "Value": {
+                "id": "cd3a596e-c2cf-4c96-a426-74656d468103",
+                "resourcePath": "sprites\\pier_tile1\\pier_tile1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02fff4e8-25a4-49ea-b132-9a824dcbc765",
             "Value": {
                 "id": "be725993-c5cb-435d-9158-cc655b3edc8c",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "18a89887-b8b6-482a-b768-be9997e0c4ff",
+            "Value": {
+                "id": "0364388f-e1d5-4603-8c71-e26c4bbabf30",
+                "resourcePath": "sprites\\pier_hintergrund2\\pier_hintergrund2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c13a3a3-8746-4902-a5f9-b520d41b53aa",
             "Value": {
                 "id": "0eabdb95-fccd-49f2-b08e-dce6b511d9f9",
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "340c69d6-542c-41b9-94dc-a92393b757c3",
+            "Value": {
+                "id": "9a9ade00-3fcc-4ea4-9e3c-d53347185bc3",
+                "resourcePath": "sprites\\pier_tile2\\pier_tile2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3449cec4-2fb6-4a2c-bf79-ece8a2bd207c",
             "Value": {
                 "id": "b4a541f6-177d-41dd-b050-443d99c0e526",
@@ -599,6 +623,14 @@
             }
         },
         {
+            "Key": "42351857-2774-49a7-8ae8-b3ca79313a31",
+            "Value": {
+                "id": "fc6df3b5-698a-42a7-b76d-83ce0cbbf1cc",
+                "resourcePath": "sprites\\meer_tile1\\meer_tile1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4280d806-19b6-46d8-b1ee-c6297e47ca96",
             "Value": {
                 "id": "94450fee-0fe0-4230-994c-041792a50d53",
@@ -612,6 +644,14 @@
                 "id": "2d7fdeb2-c849-4b5e-a41a-38862cce2332",
                 "resourcePath": "sounds\\Die\\Die.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "44e51542-219d-4019-9a49-58392e5abfb0",
+            "Value": {
+                "id": "bb741d0a-fed5-419d-801f-260832c5b85f",
+                "resourcePath": "objects\\obj_PlayerStatic\\obj_PlayerStatic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1047,6 +1087,14 @@
             }
         },
         {
+            "Key": "79597f75-21ea-430e-b8ee-45721d8b2472",
+            "Value": {
+                "id": "72043245-1386-4b77-b8a4-9a72f795842a",
+                "resourcePath": "rooms\\room_Pier\\room_Pier.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7db8bfb4-ccc8-48dc-870e-61a1225db096",
             "Value": {
                 "id": "785d4c34-76a1-43ed-97ea-c7c7c927a4fd",
@@ -1199,6 +1247,14 @@
             }
         },
         {
+            "Key": "8914c3f9-fd95-4bda-ae78-fed0c10b531e",
+            "Value": {
+                "id": "a99a91a7-0f46-4400-9255-3e3f0cb6e42b",
+                "resourcePath": "views\\8914c3f9-fd95-4bda-ae78-fed0c10b531e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8989cbc6-5f00-4ca9-ba04-51278b4996a0",
             "Value": {
                 "id": "16029352-1b1f-44f4-ab80-29ebd26a8d3c",
@@ -1227,6 +1283,14 @@
             "Value": {
                 "id": "8fd6969c-ca45-4b11-abc4-91ef68214598",
                 "resourcePath": "views\\8d8f0be6-1554-480a-9056-bd4660731d6d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8f6ad739-45cc-40bd-90cb-3e47c2413f32",
+            "Value": {
+                "id": "e16d86d5-2b3c-47ce-b718-f675d49473e1",
+                "resourcePath": "views\\8f6ad739-45cc-40bd-90cb-3e47c2413f32.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1887,6 +1951,14 @@
             }
         },
         {
+            "Key": "cdc07051-c8be-41bc-ab28-67dedce5d03c",
+            "Value": {
+                "id": "e558f995-414f-4cf5-9384-7fb01d318038",
+                "resourcePath": "sprites\\pier_hintergrund3\\pier_hintergrund3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce0532d3-2129-458e-add4-8e02a932cb6c",
             "Value": {
                 "id": "926da61f-3323-4bf5-8264-60820b5076d1",
@@ -1972,6 +2044,14 @@
                 "id": "93d7ce99-e0f7-4f45-bbbd-4cff9914f274",
                 "resourcePath": "objects\\obj_Cloud2\\obj_Cloud2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d43af868-002e-456d-8a41-ad4604ddb60f",
+            "Value": {
+                "id": "a4ec84f3-9150-44b4-93cb-4c610217bb92",
+                "resourcePath": "sprites\\pier_hintergrund1\\pier_hintergrund1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
