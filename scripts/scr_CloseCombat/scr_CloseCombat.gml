@@ -5,7 +5,7 @@ var weapon_distance = argument3;
 var weapon_damage = argument4;
 
 var left = player_x + 12;
-var top = player_y - 45;
+var top = player_y - 30;
 var right = left + weapon_distance;
 var bottom = top + 10;
 if(player_direction < 0)
