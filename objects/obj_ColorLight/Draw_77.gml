@@ -7,5 +7,10 @@ shader_set_uniform_f(shader_red, red);
 shader_set_uniform_f(shader_green, green);
 shader_set_uniform_f(shader_blue, blue);
 
-draw_surface(application_surface, 0, 0);
+if window_get_fullscreen(){
+    draw_surface(application_surface,floor(dw/2-ww/2),floor(dh/2-hh/2));
+} else {
+    draw_surface(application_surface,0,0);
+}
+
 shader_reset();

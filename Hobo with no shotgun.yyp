@@ -1783,14 +1783,6 @@
             }
         },
         {
-            "Key": "ab40d214-2b0c-46ee-af2f-b0bfccb378ec",
-            "Value": {
-                "id": "c5a3672c-1c84-4baf-9d1f-67109543b9a5",
-                "resourcePath": "rooms\\intropark\\intropark.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "ab4e7fd6-4f1e-4d14-86a4-6d5d2cedfc83",
             "Value": {
                 "id": "9b74f84a-df0c-4596-9548-fd67a27df132",
@@ -2603,14 +2595,6 @@
             "Value": {
                 "id": "bb539b98-ab5f-428a-9f0c-3d388d15bcde",
                 "resourcePath": "views\\ef9166c1-dc83-44df-adcc-a71fd530bae7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f1302c86-8393-444d-b7fd-a46a3b5fbd4d",
-            "Value": {
-                "id": "8e9c6107-d038-41f6-96da-a04959826978",
-                "resourcePath": "views\\f1302c86-8393-444d-b7fd-a46a3b5fbd4d.yy",
                 "resourceType": "GMFolder"
             }
         },
