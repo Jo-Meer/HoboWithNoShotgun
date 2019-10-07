@@ -8,7 +8,7 @@ xpos=480;
 a=1;
 fadeout=0;
 
-str = ""; 
+str = "";
 print = "";
 
 l=0;
