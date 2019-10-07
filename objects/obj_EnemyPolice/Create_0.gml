@@ -6,16 +6,19 @@ sprite_attack = spr_police_attack;
 sprite_hit = spr_police_hurt;
 sprite_walk = spr_police_walk;
 sprite_dying = spr_police_death;
+sprite_jump = spr_police_jump;
 
 hp = 25;
 walk_speed = 2;
+jump_speed = 6;
 
-detection_range = 150;
-attacking_range = 100;
+detection_range = 200;
+attacking_range = 150;
+jumping_range = 100;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
 
-sprite_attack_frame = 11;
+sprite_attack_frame = 9;
 has_attacked = false;
 was_hit = false;
 is_dying = false;

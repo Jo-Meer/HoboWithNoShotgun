@@ -19,7 +19,7 @@ x = max(obj_Player.x, 480/2);
 left = x - (480/2);
 right = x + (480/2);
 
-
 x_to = x;
-
 follow = obj_Player;
+
+shake = 0;

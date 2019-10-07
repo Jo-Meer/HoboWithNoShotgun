@@ -6,10 +6,13 @@ walk_right_is_pressed = keyboard_check(vk_right);
 jump_was_pressed = keyboard_check_pressed(vk_space);
 var movement_key_is_pressed = walk_left_is_pressed || walk_right_is_pressed;
 
-if(sprite_index == spr_HoboRun && run == 0){
+if(sprite_index == spr_HoboRun && run == 0)
+{
 	audio_play_sound(Running,1500,true);
 	run =1;
-}else if(sprite_index != spr_HoboRun){
+} 
+else if(sprite_index != spr_HoboRun) 
+{
 	audio_stop_sound(Running);
 	run=0;
 }

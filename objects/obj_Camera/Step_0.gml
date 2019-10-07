@@ -23,8 +23,10 @@ if (follow != noone) {
 			other.x_to = x;
 		}
 	}
-	
 }
+
+x += random_range(-shake, shake);
+shake = shake * 0.9;
 
 // update the view matrix
 var vm = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);

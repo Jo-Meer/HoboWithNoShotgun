@@ -7,5 +7,6 @@ enum EnemyState
 	Hurt,
 	Idle,
 	Walk,
-	PlayerDetection
+	PlayerDetection,
+	Jump
 }
