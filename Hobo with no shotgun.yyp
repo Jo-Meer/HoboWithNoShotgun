@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "11922807-a514-4000-a0ad-8e4b281755b8",
+            "Value": {
+                "id": "cd0646b0-4918-4a1b-9f0e-8710d040616b",
+                "resourcePath": "objects\\obj_FightTwo\\obj_FightTwo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1376321e-acf5-4974-848a-f29811005500",
             "Value": {
                 "id": "958e7ecb-3037-41c5-ac6f-771613e43074",
@@ -507,6 +515,14 @@
             "Value": {
                 "id": "1a2f1c3d-19a9-4781-b214-8255851217a5",
                 "resourcePath": "objects\\obj_ColorLight\\obj_ColorLight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49574db0-dd24-44af-af88-09e6a3dca543",
+            "Value": {
+                "id": "08b30179-9438-429c-9c11-9c411855e8ce",
+                "resourcePath": "objects\\obj_FightOne\\obj_FightOne.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "95c3d83b-de56-4326-bebb-fe7eea9a0261",
+            "Value": {
+                "id": "482d9015-940f-4627-aa56-9002e4fc79e7",
+                "resourcePath": "sprites\\spr_FightTwo\\spr_FightTwo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "982cc73d-2752-43cd-8360-b286e747212c",
             "Value": {
                 "id": "2b55be32-bb8c-4e91-8e92-0bf42c16668d",
@@ -1159,6 +1183,14 @@
             }
         },
         {
+            "Key": "9d9045e7-a0b1-4578-955c-c5cd44fe5719",
+            "Value": {
+                "id": "d60816b1-a785-47fe-a5f9-1fa776323ad4",
+                "resourcePath": "views\\9d9045e7-a0b1-4578-955c-c5cd44fe5719.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9ea39588-6e84-42de-ad4c-28d12e43205c",
             "Value": {
                 "id": "38eae13c-ce8d-44ce-9d0a-ca64dd44c520",
@@ -1204,6 +1236,14 @@
                 "id": "7d46e76d-a0c2-41a1-bf83-eee060f96032",
                 "resourcePath": "objects\\obj_Shotgun\\obj_Shotgun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5634687-4456-4348-a8a2-c289852f118d",
+            "Value": {
+                "id": "655ca874-6e75-4064-9495-db0f3d494af5",
+                "resourcePath": "views\\a5634687-4456-4348-a8a2-c289852f118d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1839,6 +1879,14 @@
             }
         },
         {
+            "Key": "e2f4cb41-c007-4f05-9fc3-3936708fb47c",
+            "Value": {
+                "id": "1bfedd2f-d6e1-4522-aacd-6171e4f7aa68",
+                "resourcePath": "sprites\\spr_FightOne\\spr_FightOne.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2f4d9cb-ca08-47e2-ae76-0a3e5c92be35",
             "Value": {
                 "id": "e023c86e-ba01-49a1-a59c-fad00f42ff1c",
@@ -2054,33 +2102,33 @@
         "2404d898-e7fc-4bce-a998-b072bfdf0249",
         "a85de6a0-7ae3-4b29-a6c8-0045f06f76b9",
         "d3d036a4-91a8-4802-853e-3ef19004ac5c",
-        "e80f14ff-08f8-4504-bbf3-12191c57b8d5",
         "ab9abc06-cb9d-487b-b2da-cfe0b5cecb62",
-        "baefe4a4-6179-4d9a-af1a-ff1c69325f98",
         "d4cdfcc6-a956-4cec-9efb-2464ed71fd9e",
         "7db8bfb4-ccc8-48dc-870e-61a1225db096",
-        "e4ca9601-fc66-4468-8230-fc05a156659d",
         "8b0dd98b-a414-4bda-8d93-c8bdc692b75d",
         "f52205a4-c902-402d-9271-5440d2f5dc53",
         "c15a5a83-365e-4dbe-b1bd-314479de00d8",
         "39931e8b-0550-4d61-b54e-40e3128623ec",
         "14673c39-76f0-4bee-b4e3-d0886be91b28",
+        "baefe4a4-6179-4d9a-af1a-ff1c69325f98",
+        "e4ca9601-fc66-4468-8230-fc05a156659d",
+        "e80f14ff-08f8-4504-bbf3-12191c57b8d5",
         "ac1476bd-1ee1-420b-8751-345eb24962a3",
         "9bdcb667-fe4a-46db-a030-ab11ad4d72e1",
-        "55185e75-e2fe-46f1-ba0d-b809315a1f90",
         "63840cc7-8bb3-419b-b58e-bb59c1029202",
         "20f18e1f-2848-4e49-8131-d2986f56b433",
-        "30d7ca51-1408-4900-b306-773f60bee1b1",
         "56ddc244-3e6b-433b-b0e5-22b546a0a109",
         "ef0cd4c9-d09b-4488-9df6-4135a04bcd84",
+        "30d7ca51-1408-4900-b306-773f60bee1b1",
         "b4133fb1-a7c3-44df-a80d-c061f4d2dbf8",
         "c8dc9286-c9d6-4d24-b39f-d20e4de7020b",
         "f43a3307-6aab-4e11-9490-93e8663b00d6",
+        "55185e75-e2fe-46f1-ba0d-b809315a1f90",
         "dacf6b96-e7d2-45c6-8df0-0c9d871e2dab",
-        "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
         "83cbad4f-92fc-43a0-bc96-9c33e9546473",
         "ec44626d-ed77-4319-9b99-08c81e6723b7",
         "9cffd300-9dac-4c23-9760-191733f06aa3",
+        "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
         "4f5106ca-665b-4f48-8ad6-a4a454ca93e3"
     ],
     "tutorial": ""
