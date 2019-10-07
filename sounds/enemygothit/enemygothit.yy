@@ -1,8 +1,8 @@
 {
-    "id": "b4c14777-abf8-4de1-a7b6-f0ac00868a83",
+    "id": "4b093011-0f4b-4c46-b4a3-9158048d08b7",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Jump",
+    "name": "enemygothit",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.85
+    "volume": 1
 }

@@ -16,7 +16,9 @@ else if(sprite_index != spr_HoboRun)
 	audio_stop_sound(Running);
 	run=0;
 }
-
+if(sprite_index == spr_HoboWithAShotgun && image_index==4){
+	audio_play_sound(Shotgunpickup,1500,false);
+}
 switch(current_player_state)
 {
 	case PlayerState.Idle:
@@ -29,14 +31,9 @@ switch(current_player_state)
 		}
 		if(shoot_was_pressed)
 		{
-			if(sprite_index == spr_HoboWithAShotgun){
-					audio_play_sound(Shotgun,1500,false);	
-			}else if(sprite_index == spr_HoboFightBottle){
-					audio_play_sound(Stabbing,1500,false);	
-			}else{
-					audio_play_sound(punch,1500,false);	
-			}
+			
 			scr_PlayerAttack();
+			
 		}
 		else if (jump_was_pressed)
 		{
@@ -65,18 +62,7 @@ switch(current_player_state)
 			scr_PlayerAttack();
 			
 			// play sounds
-			if(sprite_index == spr_HoboWithAShotgun) 
-			{
-				audio_play_sound(Shotgun,1500,false);	
-			} 
-			else if(sprite_index == spr_HoboFightBottle)
-			{
-				audio_play_sound(Stabbing,1500,false);	
-			} 
-			else
-			{
-				audio_play_sound(punch,1500,false);	
-			}
+			
 		}
 		else if(jump_was_pressed)
 		{
@@ -163,6 +149,7 @@ switch(current_player_state)
 			if(shoot_was_pressed)
 			{
 				scr_PlayerAttack();
+				
 			}
 			else if(jump_was_pressed)
 			{

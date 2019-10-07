@@ -559,6 +559,16 @@
             }
         },
         {
+            "Key": "42f59f61-fb8b-42e9-bf49-c363e8755732",
+            "Value": {
+                "id": "2d7fdeb2-c849-4b5e-a41a-38862cce2332",
+                "resourcePath": "sounds\\Die\\Die.yy",
+                "resourceType": "GMSound"
+                }
+        },
+
+
+        {        
             "Key": "450d5cfb-d55d-4cc8-9e00-2db1653dabaf",
             "Value": {
                 "id": "25ae6fad-3464-4d75-8e64-4170f2c450cf",
@@ -580,6 +590,14 @@
                 "id": "1a2f1c3d-19a9-4781-b214-8255851217a5",
                 "resourcePath": "objects\\obj_ColorLight\\obj_ColorLight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b093011-0f4b-4c46-b4a3-9158048d08b7",
+            "Value": {
+                "id": "da442834-350a-4d9c-b484-2f8a849d377d",
+                "resourcePath": "sounds\\enemygothit\\enemygothit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -668,6 +686,14 @@
                 "id": "f890b1fe-be8b-4e94-aebd-9851fde9e112",
                 "resourcePath": "objects\\obj_ParkStreet3\\obj_ParkStreet3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5161f92f-c28f-4dfc-aaba-1b98bfe469bc",
+            "Value": {
+                "id": "39f65a38-8812-4052-8618-db23a6948bf4",
+                "resourcePath": "sprites\\spr_MusicRampage\\spr_MusicRampage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2108,6 +2134,14 @@
                 "id": "81185dbc-085d-4b9b-a2dd-39d3fa7d0465",
                 "resourcePath": "objects\\obj_ProjectileParent\\obj_ProjectileParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ebf00161-46d9-4862-b957-c9c4adb9225b",
+            "Value": {
+                "id": "26de5b0f-ca3f-40fa-b0f2-828f97746fa3",
+                "resourcePath": "sounds\\questiongrunt\\questiongrunt.yy",
+                "resourceType": "GMSound"
             }
         },
         {

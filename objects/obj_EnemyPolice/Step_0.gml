@@ -16,6 +16,7 @@ switch(current_enemy_state)
 	{		
 		if(was_hit)
 		{
+			
 			scr_EnemyHit();
 			break;
 		}
@@ -111,6 +112,13 @@ switch(current_enemy_state)
 		scr_EnemyUpdateDie();
 		break;
 	}
+}
+if(sprite_index==spr_police_hurt){
+	audio_play_sound(enemygothit,1500,false);
+	
+}
+if(sprite_index==spr_police_death&&image_index==1){
+	audio_play_sound(Die,1500,false);	
 }
 
 if(hp <= 0 && !is_dying) 

@@ -101,6 +101,13 @@ switch(current_enemy_state)
 		break;
 	}
 }
+if(sprite_index==spr_specter_hit){
+	audio_play_sound(enemygothit,1500,false);
+	
+}
+if(sprite_index==spr_specter_dying&&image_index==1){
+	audio_play_sound(Die,1500,false);	
+}
 
 if(hp <= 0 && !is_dying) 
 {
