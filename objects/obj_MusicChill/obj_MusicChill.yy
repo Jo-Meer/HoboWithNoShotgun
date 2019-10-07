@@ -1,14 +1,23 @@
 {
-    "id": "a9ab3de2-3fb4-431f-828c-f884ba21dc90",
+    "id": "0372c448-3946-42e3-b3b5-b81b0b22190a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_TitlePier",
+    "name": "obj_MusicChill",
     "eventList": [
-        
+        {
+            "id": "3f1427a5-d16f-40ce-97f7-fb268c7da774",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0372c448-3946-42e3-b3b5-b81b0b22190a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dfea5c36-43a3-401c-926d-293d36493375",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "09abd94a-3aef-43fc-af4f-ef2f23f82c8d",
+    "spriteId": "77dca434-ab2f-4975-8441-bedb1fdc210d",
     "visible": true
 }
