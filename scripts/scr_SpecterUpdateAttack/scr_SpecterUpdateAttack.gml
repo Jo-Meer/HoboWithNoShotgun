@@ -6,6 +6,7 @@ if(image_index > weapon_attack_begin_frame &&
 	time_of_last_attack = get_timer();
 	
 	var left = current_facing_direction == 1 ? x : x - weapon_range;
+	left += current_facing_direction * 5; // start a bit off-center
 	var top =  y - weapon_y_offset_to_top;
 	var right = left + weapon_range;
 	var bottom = top + weapon_y_width;
