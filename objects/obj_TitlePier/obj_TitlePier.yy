@@ -1,5 +1,5 @@
 {
-    "id": "a9ab3de2-3fb4-431f-828c-f884ba21dc90",
+    "id": "38af2e69-4d4b-4e91-91ad-496f799c3357",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_TitlePier",
@@ -8,7 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dfea5c36-43a3-401c-926d-293d36493375",
+    "parentObjectId": "173e7663-0e85-4107-91ad-771f4a7b850e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

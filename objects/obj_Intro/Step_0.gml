@@ -11,9 +11,9 @@ xpos = max(xpos-0.3,0);
  
  //write text
  
- l+=0.5;
+ l += 0.5;
  print = string_copy(str,1,l);
- if(l > string_length(str)+100)&& (next < array_length_1d(strings)-1){
+ if(l > string_length(str)+100) && (next < array_length_1d(strings) - 1){
 	l=0;
 	next++;
 	if(next == array_length_1d(strings)-1) holdspace++;
@@ -23,6 +23,6 @@ xpos = max(xpos-0.3,0);
  if(keyboard_check_direct(vk_space)){
 	holdspace++;	 
  }
- if(holdspace>80) || (xpos < 100) fadeout = 1;
- if(a == 1) && (fadeout == 1) room_goto_next();
+ if(holdspace>80) || (xpos < 30) fadeout = 1;
+ if(a == 1) && (fadeout == 1) room_goto(room_Park);
  

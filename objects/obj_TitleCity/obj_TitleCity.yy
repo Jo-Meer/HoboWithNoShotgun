@@ -1,5 +1,5 @@
 {
-    "id": "0a625655-865e-401c-968e-05fa8fbf798f",
+    "id": "cd72b7bf-5ad1-46cb-8e28-db23a9dff42b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_TitleCity",
@@ -8,7 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dfea5c36-43a3-401c-926d-293d36493375",
+    "parentObjectId": "173e7663-0e85-4107-91ad-771f4a7b850e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

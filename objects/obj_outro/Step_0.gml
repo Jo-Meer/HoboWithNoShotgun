@@ -24,5 +24,5 @@ xpos = max(xpos-0.3,0);
 	holdspace++;	 
  }
  if(holdspace>80) || (xpos < 100) fadeout = 1;
- if(a == 1) && (fadeout == 1) room_goto_next();
+ if(a == 1) && (fadeout == 1) room_goto(Bossfight);
  

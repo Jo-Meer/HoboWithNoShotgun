@@ -1,5 +1,5 @@
 {
-    "id": "471e49aa-e35e-4fb5-836d-0f9c8c1b265d",
+    "id": "3df45218-9dd1-4f60-8825-410ad981396e",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_TitlePark",
@@ -8,7 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dfea5c36-43a3-401c-926d-293d36493375",
+    "parentObjectId": "173e7663-0e85-4107-91ad-771f4a7b850e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
