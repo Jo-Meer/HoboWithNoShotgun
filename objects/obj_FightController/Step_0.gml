@@ -80,6 +80,7 @@ if (enemy_left != noone) {
 	var instance = instance_create_layer(obj_Camera.left - 10, spawn_y, "Enemy", enemy_left);
 	instance.detection_range = 480;
 	instance.current_facing_direction = 1;
+	instance.had_player_contact = true;
 	instance.image_xscale = -1;
 	with(instance) {
 		scr_EnemyWalk();
@@ -89,6 +90,7 @@ if (enemy_left != noone) {
 if (enemy_right != noone) {
 	var instance = instance_create_layer(obj_Camera.right + 10, spawn_y, "Enemy", enemy_right);
 	instance.detection_range = 480;
+	instance.had_player_contact = true;
 	with(instance) {
 		scr_EnemyWalk();
 	}
