@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "5161f92f-c28f-4dfc-aaba-1b98bfe469bc",
+            "Value": {
+                "id": "39f65a38-8812-4052-8618-db23a6948bf4",
+                "resourcePath": "sprites\\spr_MusicRampage\\spr_MusicRampage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5384560d-5b77-498a-8201-ff107a6f05dd",
             "Value": {
                 "id": "d2e197d0-3a67-4647-9818-8a85a80f8fef",
