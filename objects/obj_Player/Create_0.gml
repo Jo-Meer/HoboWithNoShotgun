@@ -1,6 +1,7 @@
 /// @description Init vars
 max_hp = 100;
 hp = max_hp;
+hit_protection_in_seconds = 0.5; // after any hit, the player is protected for a short time
 
 walk_speed = 3;
 current_idle_sprite = spr_HoboIdle;
@@ -12,9 +13,9 @@ current_attacking_frame = 2;
 current_player_state = PlayerState.Idle;
 
 has_attacked = false;
-was_hit = false;
+receive_damage = 0; // damage that will be inflicted on the player
 is_dying = false;
-
+time_of_last_enemy_hit = -10;
 
 current_facing_direction = 0;
 

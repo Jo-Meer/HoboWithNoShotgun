@@ -2,7 +2,7 @@
     "id": "03301f88-4c66-4711-a5d7-9bbe38500858",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_fight",
+    "name": "spr_Fight",
     "For3D": false,
     "HTile": false,
     "VTile": false,

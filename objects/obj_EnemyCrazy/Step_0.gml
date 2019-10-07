@@ -18,3 +18,13 @@ if(hp <= 0 && !is_dying)
 {
 	scr_EnemyDie();
 }
+
+// remove when leaving camera
+if (instance_exists(obj_Camera)) {
+	if (current_facing_direction == 1 && x > obj_Camera.right + 40) {
+		instance_destroy();
+	}
+	else if (current_facing_direction == -1 && x < obj_Camera.left - 40) {
+		instance_destroy();
+	}
+}

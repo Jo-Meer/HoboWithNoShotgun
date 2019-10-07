@@ -23,6 +23,7 @@ detection_range = 150;
 attacking_range = 25;
 seconds_to_despawn = 2;
 seconds_of_attack_cooldown = 2;
+milliseconds_of_rotation_delay = 500;
 
 
 sprite_attack_frame = 5;
@@ -37,3 +38,6 @@ current_facing_direction = -1;
 
 time_of_death = 0;
 time_of_last_attack = 0;
+time_rotation_requested = 0;
+
+_waiting_for_rotation = false;

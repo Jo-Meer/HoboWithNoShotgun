@@ -6,10 +6,13 @@ walk_right_is_pressed = keyboard_check(vk_right);
 jump_was_pressed = keyboard_check_pressed(vk_space);
 var movement_key_is_pressed = walk_left_is_pressed || walk_right_is_pressed;
 
-if(sprite_index == spr_HoboRun && run == 0){
+if(sprite_index == spr_HoboRun && run == 0)
+{
 	audio_play_sound(Running,1500,true);
 	run =1;
-}else if(sprite_index != spr_HoboRun){
+} 
+else if(sprite_index != spr_HoboRun) 
+{
 	audio_stop_sound(Running);
 	run=0;
 }
@@ -20,7 +23,7 @@ switch(current_player_state)
 {
 	case PlayerState.Idle:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
@@ -46,7 +49,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Walk:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
@@ -55,11 +58,11 @@ switch(current_player_state)
 		
 		if(shoot_was_pressed)
 		{
-				
-		
+			
 			scr_PlayerAttack();
 			
-				
+			// play sounds
+			
 		}
 		else if(jump_was_pressed)
 		{
@@ -79,10 +82,13 @@ switch(current_player_state)
 	}
 	case PlayerState.Attack:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
+			// can't be hit while attacking
+			// makes fights a bit easier
+			//receive_damage = 0;
 			break;
 		}
 		scr_PlayerAttackUpdate();
@@ -110,7 +116,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Jump:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			if(is_in_air)
 			{
@@ -133,7 +139,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Hit:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			scr_PlayerHit();
 			break;
@@ -181,12 +187,21 @@ if(hp <= 0 && !is_dying && !is_in_air)
 	scr_PlayerDie();
 }
 
-if(x < sprite_get_xoffset(sprite_index))
-{
-	x = sprite_get_xoffset(sprite_index);
+var view_left = camera_get_view_x(view_camera[0]);
+var view_right = view_left + camera_get_view_width(view_camera[0]);
+var border_distance = 20;
+
+if (instance_exists(obj_Camera)) {
+	view_left = obj_Camera.x - 480/2;
+	view_right = obj_Camera.x + 480/2;
 }
 
-if (x > room_width - sprite_get_xoffset(sprite_index))
+if(x < view_left + border_distance)
 {
-    x = room_width - sprite_get_xoffset(sprite_index);
+	x = view_left + border_distance;
+}
+
+if (x > view_right - border_distance)
+{
+    x = view_right - border_distance;
 }
