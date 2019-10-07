@@ -1,5 +1,5 @@
 /// @description spawn enemies
-if (!is_triggered) return;
+if (triggered_at == -1) return;
 
 var left_empty = ds_map_empty(left);
 var right_empty = ds_map_empty(right);
@@ -61,15 +61,36 @@ if (!right_empty) {
 	}
 }
 
+// if a Crazy guy is coming, let him come from the farthest side
+var placeholder = noone;
+if (enemy_left == obj_EnemyCrazy && obj_Player.x < obj_Camera.x) {
+	placeholder = enemy_right;
+	enemy_right = enemy_left;
+	enemy_left = placeholder;
+}
+else if (enemy_right == obj_EnemyCrazy && obj_Player.x > obj_Camera.x) {
+	placeholder = enemy_left;
+	enemy_left = enemy_right;	
+	enemy_right = placeholder;
+}
+
 // add the enemies to the map
 if (enemy_left != noone) {
+	
 	var instance = instance_create_layer(obj_Camera.left - 10, spawn_y, "Enemy", enemy_left);
 	instance.detection_range = 480;
 	instance.current_facing_direction = 1;
+	instance.image_xscale = -1;
+	with(instance) {
+		scr_EnemyWalk();
+	}
 	ds_map_add(spawned_enemies, instance.id, instance);
 }
 if (enemy_right != noone) {
 	var instance = instance_create_layer(obj_Camera.right + 10, spawn_y, "Enemy", enemy_right);
 	instance.detection_range = 480;
+	with(instance) {
+		scr_EnemyWalk();
+	}
 	ds_map_add(spawned_enemies, instance.id, instance);
 }

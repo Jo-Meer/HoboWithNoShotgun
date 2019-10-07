@@ -1,11 +1,8 @@
 /// @description lock camera, start spawning
-
-if (is_triggered) return false;
+if (triggered_at != -1) return;
 
 // lock the camera to the screen
 obj_Camera.follow = self;
 
-is_triggered = true;
+triggered_at = current_time;
 frames = 0;
-
-return true;

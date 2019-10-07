@@ -12,7 +12,7 @@ spawned_enemies = ds_map_create();
 
 spawn_y = obj_Player.y;
 
-is_triggered = false;
+triggered_at = -1;
 frames = 0;
 
 // add enemies by time

@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-if (!event_inherited()) return;
+event_inherited();
 
-inst_EnemyBruteFight2.detection_range = 400;
+if (triggered_at == current_time) {
+	inst_EnemyBruteFight2.detection_range = 400;
+}

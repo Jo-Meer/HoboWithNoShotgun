@@ -4,5 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-ds_map_add(right, 480, obj_EnemySpecter);
-ds_map_add(left, 960, obj_EnemyBrute);
+if (triggered_at == current_time) {
+	inst_SpecterFight1.detection_range = 400;
+}
