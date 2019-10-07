@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02fff4e8-25a4-49ea-b132-9a824dcbc765",
+            "Value": {
+                "id": "be725993-c5cb-435d-9158-cc655b3edc8c",
+                "resourcePath": "rooms\\room_Test\\room_Test.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "03301f88-4c66-4711-a5d7-9bbe38500858",
             "Value": {
                 "id": "fe7e2d3a-c098-4c83-a5db-a23675e228b0",
@@ -156,6 +164,14 @@
                 "id": "59d5d142-0745-4a2e-83a1-38bf0cedb236",
                 "resourcePath": "sprites\\spr_Projectile\\spr_Projectile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "10699c1a-cd8c-4805-b70e-7cd16c74854f",
+            "Value": {
+                "id": "07fe9e6c-d4b0-4afe-aa90-903fbe0ebe3c",
+                "resourcePath": "objects\\obj_FightThree\\obj_FightThree.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "2fc8acd8-3fb1-418f-bd06-0879ebd00f8b",
+            "Value": {
+                "id": "396ffc4f-dbbe-4dd2-bbbb-90353550f20b",
+                "resourcePath": "sprites\\spr_Fight3\\spr_Fight3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30d7ca51-1408-4900-b306-773f60bee1b1",
             "Value": {
                 "id": "f25c22fc-6fb5-4b80-8ebb-cd1f12d6dc0d",
@@ -540,6 +564,14 @@
                 "id": "58f95187-74b7-40ad-9739-40c2730c70fc",
                 "resourcePath": "sprites\\spr_HoboAirborneHit\\spr_HoboAirborneHit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cfb799b-1d35-41bb-8819-ead10f049877",
+            "Value": {
+                "id": "f2805f74-b277-408d-9ff4-b09bd8620582",
+                "resourcePath": "scripts\\scr_SpecterUpdateRotation\\scr_SpecterUpdateRotation.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1743,6 +1775,14 @@
             }
         },
         {
+            "Key": "d6c1030c-d574-42c2-8dbf-3e59888d26b1",
+            "Value": {
+                "id": "8e2ea859-8dd4-4f22-9347-732cec4f0422",
+                "resourcePath": "scripts\\scr_MAKROS\\scr_MAKROS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
             "Value": {
                 "id": "557f0316-b6b5-497a-8769-2403089ec907",
@@ -2125,11 +2165,13 @@
         "f43a3307-6aab-4e11-9490-93e8663b00d6",
         "55185e75-e2fe-46f1-ba0d-b809315a1f90",
         "dacf6b96-e7d2-45c6-8df0-0c9d871e2dab",
+        "4cfb799b-1d35-41bb-8819-ead10f049877",
         "83cbad4f-92fc-43a0-bc96-9c33e9546473",
         "ec44626d-ed77-4319-9b99-08c81e6723b7",
         "9cffd300-9dac-4c23-9760-191733f06aa3",
         "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
-        "4f5106ca-665b-4f48-8ad6-a4a454ca93e3"
+        "4f5106ca-665b-4f48-8ad6-a4a454ca93e3",
+        "d6c1030c-d574-42c2-8dbf-3e59888d26b1"
     ],
     "tutorial": ""
 }
