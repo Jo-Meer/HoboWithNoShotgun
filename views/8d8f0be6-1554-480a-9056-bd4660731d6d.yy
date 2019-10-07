@@ -10,7 +10,8 @@
         "7575200a-c04f-4788-9d47-294e8c6db916",
         "dd42efdf-1460-44d1-9bd6-d1d83860e6c6",
         "e86eef8d-de91-4e6c-a901-c907fe327113",
-        "0cd7234f-5483-4cfe-a00f-731a7d62d198"
+        "0cd7234f-5483-4cfe-a00f-731a7d62d198",
+        "f43d3dd2-cfd7-4104-973c-a515fc0a2387"
     ],
     "filterType": "GMObject",
     "folderName": "Special",
