@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "19ea4560-d76e-4eda-b1b7-3afe0d538274",
+            "Value": {
+                "id": "c939ec98-bb0e-4002-8e6a-1e88e059acaf",
+                "resourcePath": "sprites\\spr_raeudige_flasche\\spr_raeudige_flasche.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c13a3a3-8746-4902-a5f9-b520d41b53aa",
             "Value": {
                 "id": "0eabdb95-fccd-49f2-b08e-dce6b511d9f9",
@@ -967,6 +975,14 @@
             }
         },
         {
+            "Key": "699faa06-7e81-4e12-8f3a-ba9844d1039a",
+            "Value": {
+                "id": "df4f8208-e120-4585-8294-db8727aa9c8a",
+                "resourcePath": "objects\\obj_Fish\\obj_Fish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6caf0765-2d31-4097-af98-e0e8c1b8b2a4",
             "Value": {
                 "id": "cff40134-455e-4f1d-b437-cec6415b3965",
@@ -1043,6 +1059,14 @@
             "Value": {
                 "id": "1f843247-2a31-4e22-ae3c-939f24206e43",
                 "resourcePath": "objects\\obj_ColorLightPurple\\obj_ColorLightPurple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "76170bd1-1dec-4f9b-9da5-fb486b67637d",
+            "Value": {
+                "id": "4795451c-95dd-4e18-9b34-053e94efbf37",
+                "resourcePath": "objects\\obj_MusicEnd\\obj_MusicEnd.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1324,6 +1348,14 @@
                 "id": "943d9860-6930-45c6-bfb8-4b14eecd304e",
                 "resourcePath": "sounds\\Rampage\\Rampage.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "950cdf1c-f67a-470c-bf9c-f2633d81afd6",
+            "Value": {
+                "id": "17e62e21-ba8f-456a-980f-03976a71f3c9",
+                "resourcePath": "sprites\\spr_erbaermliches_fass\\spr_erbaermliches_fass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1911,6 +1943,14 @@
             }
         },
         {
+            "Key": "cccd4870-5193-47b6-abb2-9d87bf6ae655",
+            "Value": {
+                "id": "72b5d558-e272-457b-b513-c140ccedeafb",
+                "resourcePath": "objects\\obj_Barrel\\obj_Barrel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cd961bc3-77c3-447f-a393-fce30f29f1cc",
             "Value": {
                 "id": "68b94a64-668c-46c5-8953-784a5897213a",
@@ -1999,6 +2039,14 @@
             }
         },
         {
+            "Key": "d3cb6d85-d650-4d77-88c1-695a6aaf8ec9",
+            "Value": {
+                "id": "630bcf57-0ba0-4391-a587-a3a3ee4a010b",
+                "resourcePath": "sprites\\spr_noobiger_fisch\\spr_noobiger_fisch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3d036a4-91a8-4802-853e-3ef19004ac5c",
             "Value": {
                 "id": "e9b598aa-fa07-499f-9ecc-c196a5983946",
@@ -2044,6 +2092,14 @@
                 "id": "8e2ea859-8dd4-4f22-9347-732cec4f0422",
                 "resourcePath": "scripts\\scr_MAKROS\\scr_MAKROS.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d71c6f7f-a36f-48dd-b95b-5c5337c1c4e0",
+            "Value": {
+                "id": "7a614126-5abf-4b6c-acc0-99072451e317",
+                "resourcePath": "objects\\obj_Bottle\\obj_Bottle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2292,6 +2348,14 @@
                 "id": "81185dbc-085d-4b9b-a2dd-39d3fa7d0465",
                 "resourcePath": "objects\\obj_ProjectileParent\\obj_ProjectileParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb14ecd8-3e93-41f6-bb11-6681a5335c1f",
+            "Value": {
+                "id": "208fd486-1c43-46c0-a6fa-201a8da685d0",
+                "resourcePath": "sounds\\music_LastHoboStanding\\music_LastHoboStanding.yy",
+                "resourceType": "GMSound"
             }
         },
         {

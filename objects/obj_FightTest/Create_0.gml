@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-ds_map_add(right, 10, obj_EnemyPolice);
+ds_map_add(right, 10, obj_EnemyBrute);
