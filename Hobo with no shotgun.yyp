@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "34e96f61-9331-4d48-97a1-61a3cdd7f734",
+            "Value": {
+                "id": "bc842302-473f-4896-807d-599824bb64a2",
+                "resourcePath": "objects\\obj_EnemyBruteTestDummy\\obj_EnemyBruteTestDummy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35e6e539-ae30-4cd0-b441-c6a4a2d5f627",
             "Value": {
                 "id": "999c9376-f5cc-46d1-b591-f1857d6a2558",
