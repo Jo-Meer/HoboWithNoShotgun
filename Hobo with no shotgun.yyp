@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "02fff4e8-25a4-49ea-b132-9a824dcbc765",
-            "Value": {
-                "id": "be725993-c5cb-435d-9158-cc655b3edc8c",
-                "resourcePath": "rooms\\room_Test\\room_Test.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "03301f88-4c66-4711-a5d7-9bbe38500858",
             "Value": {
                 "id": "fe7e2d3a-c098-4c83-a5db-a23675e228b0",
@@ -860,6 +852,14 @@
                 "id": "c9bbfdde-f9ef-4b94-8bc3-d488891bd076",
                 "resourcePath": "sprites\\spr_BackgroundPark\\spr_BackgroundPark.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5654ce09-4312-422b-834f-db24292b2343",
+            "Value": {
+                "id": "ff4dfc19-dacb-4288-a0db-a6bf849b41c8",
+                "resourcePath": "scripts\\scr_StalinUpdateAttack\\scr_StalinUpdateAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1799,6 +1799,14 @@
             }
         },
         {
+            "Key": "b3f38a5a-9354-47ec-981f-a3ecca3e4d26",
+            "Value": {
+                "id": "cce05c32-dc6f-40a3-9861-50c6c8f0337e",
+                "resourcePath": "sprites\\spr_stalin_die\\spr_stalin_die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4133fb1-a7c3-44df-a80d-c061f4d2dbf8",
             "Value": {
                 "id": "8b3b5399-5b02-45cc-bdfb-7ff44fbf0847",
@@ -1876,6 +1884,14 @@
                 "id": "3bbe6e81-e6c5-472a-a391-41c76dfed200",
                 "resourcePath": "sprites\\spr_cigaretteguy\\spr_cigaretteguy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bedc9d89-3b9c-4709-b808-4163a622a1c5",
+            "Value": {
+                "id": "20e69e0c-8054-44f9-b4aa-0466e9519fa5",
+                "resourcePath": "views\\bedc9d89-3b9c-4709-b808-4163a622a1c5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2575,6 +2591,14 @@
             }
         },
         {
+            "Key": "fc188aaf-3e0d-4b30-b971-e39754467d70",
+            "Value": {
+                "id": "232aa872-fe57-4b69-a1ea-efcb193a3d1e",
+                "resourcePath": "scripts\\scr_StalinHit\\scr_StalinHit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fc2cde8a-c3f0-4100-8892-e943bfc818bc",
             "Value": {
                 "id": "3f8dc6b4-9e74-4c14-8053-c091d6d458d7",
@@ -2603,10 +2627,10 @@
         "e80f14ff-08f8-4504-bbf3-12191c57b8d5",
         "ac1476bd-1ee1-420b-8751-345eb24962a3",
         "9bdcb667-fe4a-46db-a030-ab11ad4d72e1",
+        "ef0cd4c9-d09b-4488-9df6-4135a04bcd84",
         "63840cc7-8bb3-419b-b58e-bb59c1029202",
         "20f18e1f-2848-4e49-8131-d2986f56b433",
         "56ddc244-3e6b-433b-b0e5-22b546a0a109",
-        "ef0cd4c9-d09b-4488-9df6-4135a04bcd84",
         "30d7ca51-1408-4900-b306-773f60bee1b1",
         "b4133fb1-a7c3-44df-a80d-c061f4d2dbf8",
         "c8dc9286-c9d6-4d24-b39f-d20e4de7020b",
@@ -2620,6 +2644,8 @@
         "ec44626d-ed77-4319-9b99-08c81e6723b7",
         "9cffd300-9dac-4c23-9760-191733f06aa3",
         "d74bb64b-e7ad-4e5d-bc2d-b20aaaab5854",
+        "fc188aaf-3e0d-4b30-b971-e39754467d70",
+        "5654ce09-4312-422b-834f-db24292b2343",
         "4f5106ca-665b-4f48-8ad6-a4a454ca93e3",
         "d6c1030c-d574-42c2-8dbf-3e59888d26b1"
     ],

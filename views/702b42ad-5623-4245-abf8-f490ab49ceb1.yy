@@ -5,7 +5,8 @@
     "name": "702b42ad-5623-4245-abf8-f490ab49ceb1",
     "children": [
         "e4dedee1-aed3-4f19-a8f0-26bbce910ba2",
-        "10042078-0b14-4ff3-8a59-b480ff76590f"
+        "10042078-0b14-4ff3-8a59-b480ff76590f",
+        "b3f38a5a-9354-47ec-981f-a3ecca3e4d26"
     ],
     "filterType": "GMSprite",
     "folderName": "Stalin",
