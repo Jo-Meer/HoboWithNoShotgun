@@ -65,6 +65,7 @@ if (!right_empty) {
 if (enemy_left != noone) {
 	var instance = instance_create_layer(obj_Camera.left - 10, spawn_y, "Enemy", enemy_left);
 	instance.detection_range = 480;
+	instance.current_facing_direction = 1;
 	ds_map_add(spawned_enemies, instance.id, instance);
 }
 if (enemy_right != noone) {

@@ -10,10 +10,13 @@ right = ds_map_create();
 // count all spawned enemies so that we know when the area is clear
 spawned_enemies = ds_map_create();
 
-ds_map_add(right, 210, obj_EnemySpecter);
-ds_map_add(left, 720, obj_EnemyBrute);
-
 spawn_y = obj_Player.y;
 
 is_triggered = false;
 frames = 0;
+
+// add enemies by time
+// key is the amount of frames since encounter.
+// value is enemytype
+// ds_map_add(right, 210, obj_EnemySpecter);
+// ds_map_add(left, 720, obj_EnemyBrute);
