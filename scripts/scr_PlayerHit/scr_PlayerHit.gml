@@ -1,6 +1,7 @@
 current_player_state = PlayerState.Hit;
 
-was_hit = false;
+hp -= receive_damage;
+receive_damage = 0;
 
 sprite_index = spr_HoboHit;
 image_index = 0;

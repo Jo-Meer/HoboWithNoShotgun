@@ -18,7 +18,7 @@ switch(current_player_state)
 {
 	case PlayerState.Idle:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
@@ -49,7 +49,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Walk:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
@@ -58,15 +58,21 @@ switch(current_player_state)
 		
 		if(shoot_was_pressed)
 		{
-				
-		
+			
 			scr_PlayerAttack();
-				if(sprite_index == spr_HoboWithAShotgun){
-					audio_play_sound(Shotgun,1500,false);	
-			}else if(sprite_index == spr_HoboFightBottle){
-					audio_play_sound(Stabbing,1500,false);	
-			}else{
-					audio_play_sound(punch,1500,false);	
+			
+			// play sounds
+			if(sprite_index == spr_HoboWithAShotgun) 
+			{
+				audio_play_sound(Shotgun,1500,false);	
+			} 
+			else if(sprite_index == spr_HoboFightBottle)
+			{
+				audio_play_sound(Stabbing,1500,false);	
+			} 
+			else
+			{
+				audio_play_sound(punch,1500,false);	
 			}
 		}
 		else if(jump_was_pressed)
@@ -87,10 +93,13 @@ switch(current_player_state)
 	}
 	case PlayerState.Attack:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			audio_play_sound(Puke,1500,false);
 			scr_PlayerHit();
+			// can't be hit while attacking
+			// makes fights a bit easier
+			//receive_damage = 0;
 			break;
 		}
 		scr_PlayerAttackUpdate();
@@ -118,7 +127,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Jump:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			if(is_in_air)
 			{
@@ -141,7 +150,7 @@ switch(current_player_state)
 	}
 	case PlayerState.Hit:
 	{
-		if(was_hit)
+		if(receive_damage > 0)
 		{
 			scr_PlayerHit();
 			break;

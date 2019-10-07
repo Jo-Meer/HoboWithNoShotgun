@@ -12,9 +12,8 @@ current_attacking_frame = 2;
 current_player_state = PlayerState.Idle;
 
 has_attacked = false;
-was_hit = false;
+receive_damage = 0; // damage that will be inflicted on the player
 is_dying = false;
-
 
 current_facing_direction = 0;
 
