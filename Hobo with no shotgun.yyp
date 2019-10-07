@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "2fe59959-32e2-43ab-addf-8ee23c618c38",
+            "Value": {
+                "id": "0c6e2235-96b7-423c-b8a9-ba2e89c9854b",
+                "resourcePath": "objects\\obj_EnemyPoliceTestDummy\\obj_EnemyPoliceTestDummy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30d7ca51-1408-4900-b306-773f60bee1b1",
             "Value": {
                 "id": "f25c22fc-6fb5-4b80-8ebb-cd1f12d6dc0d",
@@ -1452,6 +1460,14 @@
                 "id": "0ef1ad2d-11f1-4871-82c4-800824deabce",
                 "resourcePath": "scripts\\scr_PlayerWalk\\scr_PlayerWalk.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "abd2e702-22bc-4201-85a5-bd281098603e",
+            "Value": {
+                "id": "4f7d1af9-6fd5-44a7-b6ec-522a97a29be4",
+                "resourcePath": "views\\abd2e702-22bc-4201-85a5-bd281098603e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
