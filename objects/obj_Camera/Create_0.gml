@@ -14,7 +14,7 @@ camera_set_proj_mat(camera, pm);
 view_camera[0] = camera;
 
 y = 270 / 2;
-x = 480 / 2;
+x = max(obj_Player.x, 480/2);
 
 left = x - (480/2);
 right = x + (480/2);
