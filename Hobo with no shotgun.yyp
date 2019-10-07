@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "09abd94a-3aef-43fc-af4f-ef2f23f82c8d",
+            "Value": {
+                "id": "20d1f0a8-fbc6-4d9e-83bf-e4ab4f4fd1b2",
+                "resourcePath": "sprites\\pier_of_pain\\pier_of_pain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09c1e517-b49c-4b3d-a597-c2d06824d2cb",
             "Value": {
                 "id": "2ee87997-3d4a-4caf-8e3e-a9a274ccc84c",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "2a24408d-8718-441f-a168-14d8320bfc3a",
+            "Value": {
+                "id": "c904c47c-393a-4b4f-b101-9e4162f618dd",
+                "resourcePath": "views\\2a24408d-8718-441f-a168-14d8320bfc3a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2b441211-b227-47b4-a189-7710b4b5aa6d",
             "Value": {
                 "id": "930abc26-176c-42be-8a94-fa2f9de5c375",
@@ -476,6 +492,14 @@
                 "id": "999c9376-f5cc-46d1-b591-f1857d6a2558",
                 "resourcePath": "views\\35e6e539-ae30-4cd0-b441-c6a4a2d5f627.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35f076d4-cc48-447b-aa2c-6858a3076a76",
+            "Value": {
+                "id": "d6461e23-f288-4ea7-811a-e719f7bcda33",
+                "resourcePath": "sprites\\streets_of_violence\\streets_of_violence.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -663,6 +687,14 @@
             }
         },
         {
+            "Key": "4d8ebeb2-680d-4582-b3b1-f3b94ab1d88d",
+            "Value": {
+                "id": "52a357d6-f1d3-4e96-a49b-3bc83b8f6059",
+                "resourcePath": "views\\4d8ebeb2-680d-4582-b3b1-f3b94ab1d88d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4ee2e302-551a-49c8-8043-e5a66526f5eb",
             "Value": {
                 "id": "dc3bd22d-b5e2-4fff-85f8-432122d2de6c",
@@ -755,14 +787,6 @@
             "Value": {
                 "id": "c9bbfdde-f9ef-4b94-8bc3-d488891bd076",
                 "resourcePath": "sprites\\spr_BackgroundPark\\spr_BackgroundPark.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "565495bd-3f47-48e2-8c49-027ac9516dc4",
-            "Value": {
-                "id": "6c183a21-421b-44d5-b95a-45d2c3043de6",
-                "resourcePath": "sprites\\trashcan\\trashcan.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1652,6 +1676,14 @@
                 "id": "ef934355-efc0-40d8-adb4-88165f12348b",
                 "resourcePath": "sounds\\Jump\\Jump.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b4d2709a-1ba1-460b-9373-32d66fff83ca",
+            "Value": {
+                "id": "276dee37-192e-4e41-88e0-4d27af3c3dc8",
+                "resourcePath": "sprites\\park_of_decay\\park_of_decay.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

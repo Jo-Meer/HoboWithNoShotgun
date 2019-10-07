@@ -9,6 +9,7 @@ switch(current_enemy_state)
 		if(was_hit)
 		{
 			scr_EnemyHit();
+			audio_play_sound(enemygothit,1500,false);
 			
 			break;
 		}
@@ -86,6 +87,7 @@ switch(current_enemy_state)
 		if(was_hit)
 		{
 			
+			
 			scr_EnemyHit();
 			break;
 		}
@@ -113,7 +115,7 @@ switch(current_enemy_state)
 		}
 	}
 }
-if(sprite_index==spr_brute_hit){
+if(sprite_index==spr_brute_hit&&image_index==1){
 	audio_play_sound(enemygothit,1500,false);
 	
 }
