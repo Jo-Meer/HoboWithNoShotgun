@@ -12,10 +12,10 @@ weapon_range = 15;
 weapon_y_offset_to_top = 38;
 weapon_x_offset_to_middle = 18;
 weapon_y_width = 10;
-weapon_damage = 5;
+weapon_damage = 0.1;
 
 
-hp = 25;
+hp = 500;
 walk_speed = 2;
 
 detection_range = 150;

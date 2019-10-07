@@ -4,7 +4,8 @@ if(floor(image_index) == sprite_attack_frame && !has_attacked)
 	has_attacked = true;
 	time_of_last_attack = get_timer();
 	
-	var left = current_facing_direction == 1 ? x : x - weapon_range;
+	var left = current_facing_direction == 1 ? x + weapon_x_offset_to_middle :
+		x - weapon_range - weapon_x_offset_to_middle;
 	var top =  y - weapon_y_offset_to_top;
 	var right = left + weapon_range;
 	var bottom = top + weapon_y_width;
