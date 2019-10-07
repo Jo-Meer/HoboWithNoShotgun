@@ -15,29 +15,18 @@ if(player_direction < 0)
 }
 
 
-var nearest_enemy = noone;
-var smallest_distance = weapon_distance;
-for (var i = 0; i < instance_number(obj_EnemyParent); i += 1)
-{	
-	var instance = instance_find(obj_EnemyParent, i);
-	var inst;
-	inst = collision_line(left, top, right, bottom, instance, false, true);
-	if(inst != noone)
+// get all enemies that were hit and add damage to them
+var enemies_hit = ds_list_create();
+var number_of_enemies_hit = collision_line_list(left, top, right, bottom, obj_EnemyParent, false, true, enemies_hit, false);
+
+if (number_of_enemies_hit > 0)
+{
+	for (var i = 0; i < number_of_enemies_hit; ++i;)
 	{
-		var distance = distance_to_object(inst);
-		if(distance < smallest_distance)
-		{
-			smallest_distance = distance;
-			nearest_enemy = inst;
-		}
+		var enemy = enemies_hit[| i];
+		enemy.hp -= weapon_damage;
+		enemy.was_hit = true;
 	}
 }
 
-if nearest_enemy != noone
-{
-   with (nearest_enemy)
-   { 
-	   nearest_enemy.hp -= weapon_damage;
-	   nearest_enemy.was_hit = true;
-   }
-}
+ds_list_destroy(enemies_hit);
