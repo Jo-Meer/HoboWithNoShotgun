@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0a625655-865e-401c-968e-05fa8fbf798f",
+            "Value": {
+                "id": "2a6a635b-75ce-440b-9263-619aff2d8b8c",
+                "resourcePath": "objects\\obj_TitleCity\\obj_TitleCity.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a9a8f88-2eb9-476b-9c7e-a57bdc4b661d",
             "Value": {
                 "id": "ab1d32d5-f1b0-4ce0-bb4f-ec34c61ca586",
