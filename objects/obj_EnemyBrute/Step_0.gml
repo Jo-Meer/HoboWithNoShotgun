@@ -4,7 +4,8 @@ var distance_to_player = abs(obj_Player.x - x);
 switch(current_enemy_state)
 {
 	case EnemyState.Idle:
-	{		
+	{
+		var dir_player = (x - obj_Player.x > 0) ? -1 : 1;
 		if(was_hit)
 		{
 			scr_EnemyHit();
@@ -12,6 +13,10 @@ switch(current_enemy_state)
 		}
 		else if(distance_to_player <= attacking_range)
 		{
+			// don't notice when facing away
+			if (!had_player_contact && current_facing_direction != dir_player) {
+				break;
+			}
 			had_player_contact = true;
 			scr_EnemyUpdateRotation();
 			if((time_of_last_attack + seconds_of_attack_cooldown * 1000000) <= get_timer())
@@ -23,6 +28,11 @@ switch(current_enemy_state)
 		{
 			if(!had_player_contact)
 			{
+				// don't notice when facing away
+				if (current_facing_direction != dir_player) {
+					break;
+				}
+			
 				scr_BruteDetectPlayer();
 				had_player_contact = true;	
 			}
