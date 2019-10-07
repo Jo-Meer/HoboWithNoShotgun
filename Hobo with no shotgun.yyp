@@ -487,11 +487,27 @@
             }
         },
         {
+            "Key": "42f59f61-fb8b-42e9-bf49-c363e8755732",
+            "Value": {
+                "id": "2d7fdeb2-c849-4b5e-a41a-38862cce2332",
+                "resourcePath": "sounds\\Die\\Die.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "48f2c06f-4db0-4965-af3a-b4767aa37698",
             "Value": {
                 "id": "1a2f1c3d-19a9-4781-b214-8255851217a5",
                 "resourcePath": "objects\\obj_ColorLight\\obj_ColorLight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b093011-0f4b-4c46-b4a3-9158048d08b7",
+            "Value": {
+                "id": "da442834-350a-4d9c-b484-2f8a849d377d",
+                "resourcePath": "sounds\\enemygothit\\enemygothit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1892,6 +1908,14 @@
                 "id": "81185dbc-085d-4b9b-a2dd-39d3fa7d0465",
                 "resourcePath": "objects\\obj_ProjectileParent\\obj_ProjectileParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ebf00161-46d9-4862-b957-c9c4adb9225b",
+            "Value": {
+                "id": "26de5b0f-ca3f-40fa-b0f2-828f97746fa3",
+                "resourcePath": "sounds\\questiongrunt\\questiongrunt.yy",
+                "resourceType": "GMSound"
             }
         },
         {
