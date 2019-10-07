@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "173e7663-0e85-4107-91ad-771f4a7b850e",
+            "Value": {
+                "id": "e96cf0b5-bdc0-45c7-99f2-c26f9650506e",
+                "resourcePath": "objects\\obj_TitleParent\\obj_TitleParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17a4d0f9-26eb-4ac4-8c70-9574656ca590",
             "Value": {
                 "id": "5753f0eb-3114-4ebe-a72e-74b0a86fa872",
@@ -623,6 +631,14 @@
             }
         },
         {
+            "Key": "38af2e69-4d4b-4e91-91ad-496f799c3357",
+            "Value": {
+                "id": "a7bfe190-e782-4f98-979b-180513b02f75",
+                "resourcePath": "objects\\obj_TitlePier\\obj_TitlePier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39931e8b-0550-4d61-b54e-40e3128623ec",
             "Value": {
                 "id": "446c36e5-5d5a-4d02-b7da-9437a03adec9",
@@ -708,6 +724,14 @@
                 "id": "a24618d9-9fb8-4977-8fe5-b0327f8bcd7b",
                 "resourcePath": "sprites\\spr_police_walk\\spr_police_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3df45218-9dd1-4f60-8825-410ad981396e",
+            "Value": {
+                "id": "fd7bdec1-05e5-41b7-aeb6-285abf0c901f",
+                "resourcePath": "objects\\obj_TitlePark\\obj_TitlePark.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2195,6 +2219,14 @@
             "Value": {
                 "id": "72b5d558-e272-457b-b513-c140ccedeafb",
                 "resourcePath": "objects\\obj_Barrel\\obj_Barrel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cd72b7bf-5ad1-46cb-8e28-db23a9dff42b",
+            "Value": {
+                "id": "9f1d68a1-be91-4ed8-8d59-2e27f74e3630",
+                "resourcePath": "objects\\obj_TitleCity\\obj_TitleCity.yy",
                 "resourceType": "GMObject"
             }
         },
