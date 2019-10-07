@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "083f7c22-d64d-4799-a9a9-b0cf3688b3c0",
+            "Value": {
+                "id": "20cd6c34-4423-483b-bda6-57067d786a49",
+                "resourcePath": "objects\\obj_Pier_hintergrund2\\obj_Pier_hintergrund2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "097341b8-72be-4228-ad82-4b28eb15eb48",
             "Value": {
                 "id": "78bbdffc-2e5f-4a75-b9b2-7be9eef17898",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "59d5d142-0745-4a2e-83a1-38bf0cedb236",
                 "resourcePath": "sprites\\spr_Projectile\\spr_Projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "10042078-0b14-4ff3-8a59-b480ff76590f",
+            "Value": {
+                "id": "93edd6c4-3942-4ea2-b18b-b888fed0b30e",
+                "resourcePath": "sprites\\spr_stalin_idle\\spr_stalin_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "21be6e66-1587-49b5-b67f-c92ad78f9a52",
+            "Value": {
+                "id": "7e3230b2-a2cc-4a48-8914-ae2599a594cb",
+                "resourcePath": "objects\\obj_meer_tile\\obj_meer_tile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22a89e06-4755-459c-a8e5-54d25be6c41c",
             "Value": {
                 "id": "e86efea2-b352-44d7-b3cb-608ad27e2f1d",
@@ -412,14 +436,6 @@
                 "id": "fa3ed12d-8f60-4662-8724-46dd12928474",
                 "resourcePath": "sprites\\spr_Collision\\spr_Collision.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2a24408d-8718-441f-a168-14d8320bfc3a",
-            "Value": {
-                "id": "c904c47c-393a-4b4f-b101-9e4162f618dd",
-                "resourcePath": "views\\2a24408d-8718-441f-a168-14d8320bfc3a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -620,6 +636,14 @@
                 "id": "728e9499-3317-4f36-8bbb-899a3f9c6ff6",
                 "resourcePath": "sprites\\spr_HoboDieOnShit\\spr_HoboDieOnShit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41a2bb20-7537-49f2-9de0-9f105294686c",
+            "Value": {
+                "id": "69e39c3c-1823-4f21-a65b-5302f4c2435f",
+                "resourcePath": "rooms\\Bossfight\\Bossfight.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -911,6 +935,14 @@
             }
         },
         {
+            "Key": "61fa3511-6d52-483d-9532-9c7adde463d5",
+            "Value": {
+                "id": "fd58ccbc-30e7-4845-a114-2a33822f2438",
+                "resourcePath": "objects\\obj_Pier_hintergrund1\\obj_Pier_hintergrund1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "633a9061-950a-49b3-9a41-cdeabc10051b",
             "Value": {
                 "id": "70c128b5-d358-4bd3-b809-de5a082f8ace",
@@ -924,6 +956,14 @@
                 "id": "238fc866-50f9-47b5-b4cb-a0c31d6dd778",
                 "resourcePath": "scripts\\scr_EnemyAttack\\scr_EnemyAttack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6388b213-b2b6-4b94-a16f-18e0bb9fc63d",
+            "Value": {
+                "id": "4ab714d5-3c12-49fd-8968-b3a52e8eb823",
+                "resourcePath": "rooms\\Outropier\\Outropier.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1020,14 +1060,6 @@
                 "id": "554a2f22-55a1-4574-b4b6-f1ea9ba34ac0",
                 "resourcePath": "objects\\obj_Player\\obj_Player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6f566a8c-e402-4fdf-8245-4c235c5f83cf",
-            "Value": {
-                "id": "85764a29-25a9-4cd5-8c68-f36d316aeb51",
-                "resourcePath": "rooms\\outropier\\outropier.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1403,6 +1435,14 @@
             "Value": {
                 "id": "c5425925-f15a-42c6-bbc5-8b6a9b0f968e",
                 "resourcePath": "objects\\obj_ShoppingCart\\obj_ShoppingCart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b73d522-3ddb-467d-9fcc-ca7b44a5bc96",
+            "Value": {
+                "id": "e958fcc8-1883-471c-ad3b-79e0d5cd129a",
+                "resourcePath": "objects\\obj_Pier_tile2\\obj_Pier_tile2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1867,6 +1907,14 @@
             "Value": {
                 "id": "ba2aaec7-db9d-47ef-959a-51885bc26379",
                 "resourcePath": "objects\\obj_rampagesong\\obj_rampagesong.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c6c218a1-33a2-468c-a61b-1ca1795d08d7",
+            "Value": {
+                "id": "b910819a-5adb-42c7-b138-64b06b6b6f01",
+                "resourcePath": "objects\\obj_EnemyStalin\\obj_EnemyStalin.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2391,6 +2439,14 @@
             }
         },
         {
+            "Key": "f495b517-7e62-4733-861d-b7099f24582d",
+            "Value": {
+                "id": "18b0683b-f730-45cd-ba62-fad761fa67c6",
+                "resourcePath": "objects\\obj_Pier_hintergrund3\\obj_Pier_hintergrund3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f52205a4-c902-402d-9271-5440d2f5dc53",
             "Value": {
                 "id": "9834fc82-4320-42b9-8fb8-0ac57b013034",
@@ -2404,6 +2460,14 @@
                 "id": "0b767768-2f9e-4672-960c-f9f9a9f000ac",
                 "resourcePath": "views\\f652e842-d86e-406c-b2e9-2ba968d927bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6c2ac60-6f5c-4a49-b5ac-d3e6494fcc93",
+            "Value": {
+                "id": "d87e6046-ccdb-40f2-8df9-ec8dc7a67582",
+                "resourcePath": "objects\\obj_Pier_tile1\\obj_Pier_tile1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
