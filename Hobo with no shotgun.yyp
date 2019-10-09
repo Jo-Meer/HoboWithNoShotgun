@@ -767,14 +767,6 @@
             }
         },
         {
-            "Key": "41a2bb20-7537-49f2-9de0-9f105294686c",
-            "Value": {
-                "id": "69e39c3c-1823-4f21-a65b-5302f4c2435f",
-                "resourcePath": "rooms\\Bossfight\\Bossfight.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "42351857-2774-49a7-8ae8-b3ca79313a31",
             "Value": {
                 "id": "fc6df3b5-698a-42a7-b76d-83ce0cbbf1cc",
@@ -1103,14 +1095,6 @@
             }
         },
         {
-            "Key": "6388b213-b2b6-4b94-a16f-18e0bb9fc63d",
-            "Value": {
-                "id": "4ab714d5-3c12-49fd-8968-b3a52e8eb823",
-                "resourcePath": "rooms\\Outropier\\Outropier.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "63d0b323-dc03-4073-95b3-5c56565ddde3",
             "Value": {
                 "id": "210470ad-267e-4f1b-9d78-d97f1573c77c",
@@ -1292,14 +1276,6 @@
                 "id": "a6e354a5-f9da-40d3-9039-7ba1a0dbacbf",
                 "resourcePath": "sprites\\spr_Dogs\\spr_Dogs.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "79597f75-21ea-430e-b8ee-45721d8b2472",
-            "Value": {
-                "id": "72043245-1386-4b77-b8a4-9a72f795842a",
-                "resourcePath": "rooms\\room_Pier\\room_Pier.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
