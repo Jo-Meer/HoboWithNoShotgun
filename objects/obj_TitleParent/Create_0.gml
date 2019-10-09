@@ -8,3 +8,5 @@ fade_speed = 1/60;
 
 fade_in_percent = 0;
 is_faded_in = false;
+
+my_current_time = get_timer();
